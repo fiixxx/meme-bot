@@ -54,16 +54,17 @@ client.on("guildMemberAdd", member => {
       "https://media0.giphy.com/media/VtHZxgsZdqTUQ/source.gif"
     )
     .addField(
-      "WELCOME TO SHELL SERVER" ,
-      <@${id}>
-    
-    .addField(" بەخێر بێی بۆ سێرڤەرەکەمان بە ھیوای بەسەر بردنی کاتێکی خۆشheartraised_hand🏻", **${member.guild.name}**)
-    .addField("تۆ ژمارە  لە سێرفەر ", ${member.guild.memberCount})
+      `WELCOME TO SHELL SERVER `,///// nawakay bgora !!
+      `<@${id}>`
+    )
+    .addField(" **بەخێر بێی بۆ سێرڤەرەکەمان بە ھیوای بەسەر بردنی کاتێکی خۆش:heart::raised_hand_tone1:**", `**${member.guild.name}**`)
+    .addField("**تۆ ژمارە  لە سێرفەر** ", `${member.guild.memberCount} `)
     .setColor("RANDOM");
-  var channel = member.guild.channels.find("name", "𝙒𝙀𝙇𝘾𝙊𝙈𝙀");
+  var channel = member.guild.channels.find("name", "𝙒𝙀𝙇𝘾𝙊𝙈𝙀"); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
   if (!channel) return;
   channel.send({ embed: embed });
 });
+
 
         
 
