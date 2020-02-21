@@ -47,24 +47,5 @@ client.on('ready', () => {
 
 
 
-client.on("guildMemberAdd", member => {
-  let id = member.user.id;
-  let m = member.user;
-  var embed = new Discord.RichEmbed()
-    .setThumbnail(m.avatarURL)
-    .setImage(
-      "https://www.activetrail.fr/wp-content/uploads//2019/08/giphy.gif"
-    )
-    .addField(
-      "WELCOME TO SHELL SERVER",
-      <@${id}>
-    )
-    .addField(" بەخێر بێی بۆ سێرڤەرەکەمان بە ھیوای بەسەر بردنی کاتێکی خۆشheartraised_hand🏻", **${member.guild.name}**)
-    .addField("تۆ ژمارە  لە سێرفەر ", ${member.guild.memberCount})
-    .setColor("RANDOM");
-  var channel = member.guild.channels.find("name", "welcome"); 
-  if (!channel) return;
-  channel.send({ embed: embed });
-});
 
-client.login(
+        
