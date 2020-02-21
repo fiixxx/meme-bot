@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://pinoshell.glitch.me/`);
+  http.get(`http://shellwelcomer.glitch.me/`);
 }, 280000);
 
 const Discord = require('discord.js');  
@@ -17,7 +17,7 @@ const math = require('math-expression-evaluator');
 const figlet = require('figlet');   
 const fs = require('fs');  
 const ms = require('ms');  
-const prefix = '!!'
+const prefix = '$$'
 
 
 const { Client, Collection } = require("discord.js");
@@ -45,7 +45,28 @@ client.on('ready', () => {
 });
 
 
-
-
-
+client.on("guildMemberAdd", member => {
+  let id = member.user.id;
+  let m = member.user;
+  var embed = new Discord.RichEmbed()
+    .setThumbnail(m.avatarURL)
+    .setImage(
+      "https://www.activetrail.fr/wp-content/uploads//2019/08/giphy.gif"
+    )
+    .addField(
+      `WELCOME TO SHELL SERVER `, ///// nawakay bgora !!
+      `<@${id}>`
+    )
+    .addField(
+      " **بەخێر بێی بۆ سێرڤەرەکەمان بە ھیوای بەسەر بردنی کاتێکی خۆش:heart::raised_hand_tone1:**",
+      `**${member.guild.name}**`
+    )
+    .addField("**تۆ ژمارە  لە سێرفەر** ", `${member.guild.memberCount} `)
+    .setColor("RANDOM");
+  var channel = member.guild.channels.find("name", "𝙒𝙀𝙇𝘾𝙊𝙈𝙀"); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
+  if (!channel) return;
+  channel.send({ embed: embed });
+});
         
+
+client.login("Njc3NjE4Nzk0ODEzODQ5NjEz.Xk9zag.ItNB8KlUY72HOQZsWNpBT2ZA7ak")
