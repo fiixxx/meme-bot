@@ -1,34 +1,70 @@
-// server.js
-// where your node app starts
-
-// we've started you off with Express (https://expressjs.com/)
-// but feel free to use whatever libraries or frameworks you'd like through `package.json`.
-const express = require("express");
+const http = require('http');
+const express = require('express');
 const app = express();
-
-// our default array of dreams
-const dreams = [
-  "Find and count some sheep",
-  "Climb a really tall mountain",
-  "Wash the dishes"
-];
-
-// make all the files in 'public' available
-// https://expressjs.com/en/starter/static-files.html
-app.use(express.static("public"));
-
-// https://expressjs.com/en/starter/basic-routing.html
 app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/views/index.html");
+  response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+setInterval(() => {
+  http.get(`http://pinoshell.glitch.me/`);
+}, 280000);
+
+const Discord = require('discord.js');  
+const client = new Discord.Client();  
+const moment = require('moment');
+const zalgo = require('zalgolize');  
+const math = require('math-expression-evaluator');   
+const figlet = require('figlet');   
+const fs = require('fs');  
+const ms = require('ms');  
+const prefix = '!!'
+
+
+const { Client, Collection } = require("discord.js");
+
+
+
+// Collections
+client.commands = new Collection();
+client.aliases = new Collection();
+
+
+
+
+client.on('ready', () => {
+    console.log(`Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`);
+    let statuses = [
+       `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
+       `KAKSHELL`
+               
+    ]
+  setInterval(function() {
+    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(STREAMING , { type: "STREAMING", url: "https://www.twitch.tv/faith" });
+  }, 2000);
 });
 
-// send the default array of dreams to the webpage
-app.get("/dreams", (request, response) => {
-  // express helps us take JS objects and send them as JSON
-  response.json(dreams);
+
+
+
+client.on("guildMemberAdd", member => {
+  let id = member.user.id;
+  let m = member.user;
+  var embed = new Discord.RichEmbed()
+    .setThumbnail(m.avatarURL)
+    .setImage(
+      "https://www.activetrail.fr/wp-content/uploads//2019/08/giphy.gif"
+    )
+    .addField(
+      "WELCOME TO SHELL SERVER",
+      <@${id}>
+    )
+    .addField(" بەخێر بێی بۆ سێرڤەرەکەمان بە ھیوای بەسەر بردنی کاتێکی خۆشheartraised_hand🏻", **${member.guild.name}**)
+    .addField("تۆ ژمارە  لە سێرفەر ", ${member.guild.memberCount})
+    .setColor("RANDOM");
+  var channel = member.guild.channels.find("name", "welcome"); 
+  if (!channel) return;
+  channel.send({ embed: embed });
 });
 
-// listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
-});
+client.login(
