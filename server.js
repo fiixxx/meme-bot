@@ -31,7 +31,7 @@ client.on("ready", () => {
   );
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `KAKSHELL`
+    `DEV JUBA`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -47,9 +47,9 @@ client.on("guildMemberAdd", member => {
   let m = member.user;
   var embed = new Discord.RichEmbed()
     .setThumbnail(m.avatarURL)
-    .setImage("https://media0.giphy.com/media/VtHZxgsZdqTUQ/source.gif")
+    .setImage("https://media.discordapp.net/attachments/682185524735246353/684796129061371910/a_fd4008cb50c8c72fdf60c5c65ed7ad27.gif")
     .addField(
-      `WELCOME TO SHELL SERVER `, ///// nawakay bgora !!
+      `WELCOME TO JUBA SERVER `, ///// nawakay bgora !!
       `<@${id}>`
     )
     .addField(
@@ -58,9 +58,9 @@ client.on("guildMemberAdd", member => {
     )
     .addField("**تۆ ژمارە  لە سێرفەر** ", `${member.guild.memberCount} `)
     .setColor("RANDOM");
-  var channel = member.guild.channels.find("name", "𝙒𝙀𝙇𝘾𝙊𝙈𝙀"); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
+  var channel = member.guild.channels.find("name", "wᴇʟᴄᴏᴍᴇ"); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
   if (!channel) return;
   channel.send({ embed: embed });
 });
 
-client.login("Njc3NjE4Nzk0ODEz1g.ISbmV61b2ZY19TiIyAL8xm2G86c");
+client.login("Njg0Nzk0MDEwMjQ5OTg2MDU0.Xl_SNA.7hhaAFrZlgVINxXEq7ylnsyq160");
