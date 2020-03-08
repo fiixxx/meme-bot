@@ -58,7 +58,7 @@ client.on("guildMemberAdd", member => {
     )
     .addField("**👤| to kasi zhmara** ", `${member.guild.memberCount} `)
     .setColor("RANDOM");
-  var channel = member.guild.channels.find("name", "wᴇʟᴄᴏᴍᴇ"); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
+  var channel = member.guild.channels.find("name", "𝐖𝐞𝐥𝐜𝐨𝐦e👏"); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
   if (!channel) return;
   channel.send({ embed: embed });
 });
