@@ -31,7 +31,7 @@ client.on("ready", () => {
   );
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `DEV JUBA`
+    `BZHI MALIKM`, `DEV BADBOY`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -49,18 +49,18 @@ client.on("guildMemberAdd", member => {
     .setThumbnail(m.avatarURL)
     .setImage("https://media.discordapp.net/attachments/682185524735246353/684796129061371910/a_fd4008cb50c8c72fdf60c5c65ed7ad27.gif")
     .addField(
-      `WELCOME TO JUBA SERVER `, ///// nawakay bgora !!
+      `WELCOME`, ///// nawakay bgora !!
       `<@${id}>`
     )
     .addField(
-      " **بەخێر بێی بۆ سێرڤەرەکەمان بە ھیوای بەسەر بردنی کاتێکی خۆش:heart::raised_hand_tone1:**",
+      " **🌹| baxerbet bo serverakam**",
       `**${member.guild.name}**`
     )
-    .addField("**تۆ ژمارە  لە سێرفەر** ", `${member.guild.memberCount} `)
+    .addField("**👤| to kasi zhmara** ", `${member.guild.memberCount} `)
     .setColor("RANDOM");
   var channel = member.guild.channels.find("name", "wᴇʟᴄᴏᴍᴇ"); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
   if (!channel) return;
   channel.send({ embed: embed });
 });
 
-client.login("");
+client.login("Njc3NjMyMTQzNjE0MTQ4NjM4.XmT4vg.9kLXLbtdZQ2LsS1YqSTR9aXE8QQ");
