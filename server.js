@@ -31,7 +31,7 @@ client.on("ready", () => {
   );
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `BZHI MALIKM`, `DEV BADBOY`
+    `BZHI MALIKM`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -39,7 +39,7 @@ client.on("ready", () => {
       type: "STREAMING",
       url: "https://www.twitch.tv/faith"
     });
-  }, 2000);
+  }, 3000);
 });
 
 client.on("guildMemberAdd", member => {
