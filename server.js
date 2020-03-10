@@ -31,7 +31,7 @@ client.on("ready", () => {
   );
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `BZHI MALIKM`
+    `By: ranjo`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -42,25 +42,6 @@ client.on("ready", () => {
   }, 3000);
 });
 
-client.on("guildMemberAdd", member => {
-  let id = member.user.id;
-  let m = member.user;
-  var embed = new Discord.RichEmbed()
-    .setThumbnail(m.avatarURL)
-    .setImage("https://media.discordapp.net/attachments/682185524735246353/684796129061371910/a_fd4008cb50c8c72fdf60c5c65ed7ad27.gif")
-    .addField(
-      `WELCOME`, ///// nawakay bgora !!
-      `<@${id}>`
-    )
-    .addField(
-      " **🌹| baxerbet bo serverakam**",
-      `**${member.guild.name}**`
-    )
-    .addField("**👤| to kasi zhmara** ", `${member.guild.memberCount} `)
-    .setColor("RANDOM");
-  var channel = member.guild.channels.find("name", ""); ///// la bashy welcomesh har charek nawey welcomt gory abet la projektakash bigoryt
-  if (!channel) return;
-  channel.send({ embed: embed });
-});
 
-client.login("Njc3NjMyMTQzNjE0MTQ4NjM4.XmT4vg.9kLXLbtdZQ2LsS1YqSTR9aXE8QQ");
+
+client.login("Njc3NjExOTAzMTQ0NTU4NjE1.XmfSTA.vdMnC8VPKk-04j8CDxZWcb2MDi0");
