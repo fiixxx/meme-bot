@@ -31,13 +31,13 @@ client.on("ready", () => {
   );
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `By: ranjo`
+    `By: RANJO`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(STREAMING, {
       type: "STREAMING",
-      url: "https://www.twitch.tv/faith"
+      url: "https://www.twitch.tv/RANJO"
     });
   }, 3000);
 });
