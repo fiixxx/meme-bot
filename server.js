@@ -44,4 +44,4 @@ client.on("ready", () => {
 
 
 
-client.login("Njc3NjExOTAzMTQ0NTU4NjE1.XmfSTA.vdMnC8VPKk-04j8CDxZWcb2MDi0");
+client.login("Njc3NjExOTAzMTQ0NTU4NjE1.XmkgZQ.4Qo_WlKm-K_KnJ1siB6qzo4TYio");
