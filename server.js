@@ -27,7 +27,11 @@ client.aliases = new Collection();
 
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
-  let statuses = [`Servers: ${client.guilds.size} `, `1 2 3 4 5`, `Guy bxo`];
+  let statuses = [
+    `Servers: ${client.guilds.size} `,
+    `ZORO`,
+    `IM HACKER You Servers`
+  ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(STREAMING, {
