@@ -26,13 +26,8 @@ client.commands = new Collection();
 client.aliases = new Collection();
 
 client.on("ready", () => {
-  console.log(
-    `Online In Servers : ${client.guilds.size} `
-  );
-  let statuses = [
-    `Servers: ${client.guilds.size} `,
-    `EOT - UP`,`HI EVERYONE`
-  ];
+  console.log(`Online In Servers : ${client.guilds.size} `);
+  let statuses = [`Servers: ${client.guilds.size} `, `LS - UP`, `HI HACKER`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(STREAMING, {
@@ -42,6 +37,6 @@ client.on("ready", () => {
   }, 2000);
 });
 
-
-
-client.login("NTU1ODMyNjg0ODM3MDc3MDQw.Xmo1PQ.nf-qKzTVqreN8hsUhZmq2Ijh_9Q");
+client.login(
+  "mfa.yFHXszOBiy3vFc02M5egvEsxtyzjxJCpejWGDF9CLCJiyMbpLHR31MX5CY3RUTQxrpP6FzU7loNNRWt7r3ru"
+);
