@@ -31,7 +31,7 @@ client.on("ready", () => {
   );
   let statuses = [
     `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `By: 4YOU๏RANJO#6782`
+    `EOT - UP`,``
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -44,4 +44,4 @@ client.on("ready", () => {
 
 
 
-client.login("Njc3NjExOTAzMTQ0NTU4NjE1.XmkgZQ.4Qo_WlKm-K_KnJ1siB6qzo4TYio");
+client.login("NTU1ODMyNjg0ODM3MDc3MDQw.Xmo1PQ.nf-qKzTVqreN8hsUhZmq2Ijh_9Q");
