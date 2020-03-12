@@ -29,8 +29,8 @@ client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
     `Servers: ${client.guilds.size} `,
-    `ZORO`,
-    `IM HACKER You Servers`
+    `IM HACKER`,
+    ` ᴰ ᴱ ᵛ Z O R O`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
