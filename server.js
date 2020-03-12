@@ -27,11 +27,11 @@ client.aliases = new Collection();
 
 client.on("ready", () => {
   console.log(
-    `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
+    `Online In Servers : ${client.guilds.size} `
   );
   let statuses = [
-    `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `EOT - UP`,``
+    `Servers: ${client.guilds.size} `,
+    `EOT - UP`,`HI EVERYONE`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -39,7 +39,7 @@ client.on("ready", () => {
       type: "STREAMING",
       url: "https://www.twitch.tv/RANJO"
     });
-  }, 3000);
+  }, 2000);
 });
 
 
