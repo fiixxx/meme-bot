@@ -29,7 +29,7 @@ client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
     `Servers: ${client.guilds.size} `,
-    `IM HACKER`,
+    `LEGEND SQUAD UP`,
     ` ᴰ ᴱ ᵛ Z O R O`
   ];
   setInterval(function() {
@@ -41,6 +41,4 @@ client.on("ready", () => {
   }, 2000);
 });
 
-client.login(
-  "mfa.yFHXszOBiy3vFc02M5egvEsxtyzjxJCpejWGDF9CLCJiyMbpLHR31MX5CY3RUTQxrpP6FzU7loNNRWt7r3ru"
-);
+client.login("NDI4NTMxNzQ2MTA0MTQ4MDAw.Xjyq2g.tgAWP-VOaVoSB_0kFh8XY5ZBfzg");
