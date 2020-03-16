@@ -30,7 +30,10 @@ client.on("ready", () => {
   let statuses = [
     `Servers: ${client.guilds.size} `,
     `LEGEND SQUAD UP`,
-    ` ᴰ ᴱ ᵛ Z O R O`
+    ` ᴰ ᴱ ᵛ Z O R O`,
+    `BY;ZORO`,
+    `IM HACKER`,
+    `ZOROUP`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
