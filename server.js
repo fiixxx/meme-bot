@@ -44,4 +44,4 @@ client.on("ready", () => {
   }, 2000);
 });
 
-client.login("NDI4NTMxNzQ2MTA0MTQ4MDAw.Xjyq2g.tgAWP-VOaVoSB_0kFh8XY5ZBfz");
+client.login(".-");
