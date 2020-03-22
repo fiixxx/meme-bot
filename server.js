@@ -44,10 +44,8 @@ client.on("ready", () => {
   }, 2000);
 });
 
-client.on("message", msg => {
-  if (msg.content === "slaw") {
-    msg.reply("slaw latosh gyan");
-  }
-});
+    msg.("slaw latosh gyan");
+  
 
-client.login("NjE0NDgwMTQ0NDQ2NTIxMzU2.XmvGSA.B69MEZDBo");
+
+client.login("NDI4NTMxNzQ2MTA0MTQ4MDAw.Xjyq2g.tgAWP-VOaVoSB_0kFh8XY5ZBfzg");
