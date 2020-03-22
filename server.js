@@ -34,6 +34,8 @@ client.on("ready", () => {
     `Ashqtm ta mrdn`,
     `😘 A 😘`,
     `7 A B O UP`
+    `TAQANAKAM`
+    
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -47,7 +49,9 @@ client.on("ready", () => {
 client.on("message", message => {
   if (message.author.bot) return;
   if (message.isMentioned(client.user)) {
-    message.reply("rose|@everyone ba zutren kat jwabt dadamawa gullakam");
+    message.reply(
+      "rose|@everyone bbwra bray barez la har keshayak accawntakam bota"
+    );
   }
 });
 
