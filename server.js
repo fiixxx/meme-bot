@@ -28,14 +28,12 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `7 A B O UP: ${client.guilds.size} `,
     `❤A❤`,
-    ` ᴰ ᴱ ᵛ Z O R O`,
+    ` ᴰ ᴱ
+ᵛ   `,
     `Ashqtm ta mrdn`,
     `😘 A 😘`,
     `7 A B O UP`
-    `TAQANAKAM`
-    
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
