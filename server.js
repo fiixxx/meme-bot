@@ -44,8 +44,11 @@ client.on("ready", () => {
   }, 2000);
 });
 
-    msg.("slaw latosh gyan");
-  
-
+client.on("message", message => {
+  if (message.author.bot) return;
+  if (message.isMentioned(client.user)) {
+    message.reply("rose|@everyone ba zutren kat jwabt dadamawa gullakam");
+  }
+});
 
 client.login("NDI4NTMxNzQ2MTA0MTQ4MDAw.Xjyq2g.tgAWP-VOaVoSB_0kFh8XY5ZBfzg");
