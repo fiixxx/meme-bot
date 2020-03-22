@@ -29,11 +29,10 @@ client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
     `❤A❤`,
-    ` ᴰ ᴱ
-ᵛ   `,
+    `😍TAQANAKAM😍`,
     `Ashqtm ta mrdn`,
     `😘 A 😘`,
-    `7 A B O UP`
+    `7 A B O UP``7 A B O UP`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
