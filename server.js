@@ -44,4 +44,12 @@ client.on("ready", () => {
   }, 2000);
 });
 
-client.login(".-");
+client.on("message", msg => {
+  if (msg.content === "slaw") {
+    msg.reply("slaw latosh gyan");
+  }
+});
+
+client.login(
+  "mfa.yFHXszOBiy3vFc02M5egvEsxtyzjxJCpejWGDF9CLCJiyMbpLHR31MX5CY3RUTQxrpP6FzU7loNNRWt7r3ru"
+);
