@@ -32,7 +32,7 @@ client.on("ready", () => {
     `😍TAQANAKAM😍`,
     `Ashqtm ta mrdn`,
     `😘 A 😘`,
-    `7 A B O UP``7 A B O UP`
+    `7 A B O UP`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
