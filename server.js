@@ -42,6 +42,16 @@ client.on("ready", () => {
     });
   }, 2000);
 });
+client.on("message", msg => {
+  if (msg.content === "slaw") {
+    msg.reply("slaw latosh gyan gar har shtekt dawe wara chate taybat");
+  }
+});
+client.on("message", msg => {
+  if (msg.content === "ZORO") {
+    msg.reply("farmw dlimn chonn");
+  }
+});
 
 client.on("message", message => {
   if (message.author.bot) return;
