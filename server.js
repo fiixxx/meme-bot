@@ -28,11 +28,11 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `❤A❤`,
+    `JOKER UP`,
     `😍TAQANAKAM😍`,
-    `Ashqtm ta mrdn`,
-    `😘 A 😘`,
-    `7 A B O UP`
+    `Dev JOKER UP`,
+    `😘DLAKAM UP😘`,
+    `SHAZHNAKAM UP`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -42,24 +42,12 @@ client.on("ready", () => {
     });
   }, 2000);
 });
-client.on("message", msg => {
-  if (msg.content === "slaw") {
-    msg.reply("slaw latosh gyan gar har shtekt dawe wara chate taybat");
-  }
-});
-client.on("message", msg => {
-  if (msg.content === "ZORO") {
-    msg.reply("farmw dlimn chonn xhzmatt bkam");
-  }
-});
 
 client.on("message", message => {
   if (message.author.bot) return;
   if (message.isMentioned(client.user)) {
-    message.reply(
-      "rose|@everyone bbwra bray barez la har keshayak accawntakam bota"
-    );
+    message.reply("Slaw dlm farmw ba xzmatt kam?");
   }
 });
 
-client.login("NDI4NTMxNzQ2MTA0MTQ4MDAw.Xjyq2g.tgAWP-VOaVoSB_0kFh8XY5ZBfzg");
+client.login("NjY3ODA3MjQ3NTMwODUyMzcy.XniC6g.Ka0gLjZ-b52YKbDGeicpiQEsTDY");
