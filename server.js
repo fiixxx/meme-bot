@@ -49,7 +49,7 @@ client.on("message", msg => {
 });
 client.on("message", msg => {
   if (msg.content === "ZORO") {
-    msg.reply("farmw dlimn chonn");
+    msg.reply("farmw dlimn chonn xhzmatt bkam");
   }
 });
 
