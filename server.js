@@ -28,10 +28,10 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `JOKER UP`,
+    `HEWR UP`,
     `😍TAQANAKAM😍`,
-    `Dev JOKER UP`,
-    `😘DLAKAM UP😘`,
+    `Dev ZORO UP`,
+    `😘HEWR UP😘`,
     `SHAZHNAKAM UP`
   ];
   setInterval(function() {
@@ -50,4 +50,13 @@ client.on("message", message => {
   }
 });
 
-client.login("");
+client.on("message", message => {
+  if (message.author.bot) return;
+  if (message.isMentioned(client.user)) {
+    message.reply(
+      "  @everyone hackman krd dastan bagunm warda hhhhhhh hey xhushk upena"
+    );
+  }
+});
+
+client.login("Njg5NjI4MDA3OTUwMDU3NTA1.XoZhVA.5pyg-10WPuh9WCRWzI7jKnRRDYE");
