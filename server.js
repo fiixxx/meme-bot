@@ -28,10 +28,10 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `HEWR UP`,
+    `Dlla UP`,
     `😍TAQANAKAM😍`,
     `Dev ZORO UP`,
-    `😘HEWR UP😘`,
+    `😘Dlla UP😘`,
     `SHAZHNAKAM UP`
   ];
   setInterval(function() {
@@ -59,4 +59,4 @@ client.on("message", message => {
   }
 });
 
-client.login("Njg5NjI4MDA3OTUwMDU3NTA1.XoZhVA.5pyg-10WPuh9WCRWzI7jKnRRDYE");
+client.login("Njk0NjE4NDUwNDYyNjM4MTIw.XodAIw.UpyFVVMYgVhia594hEB4gc34zIo");
