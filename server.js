@@ -28,11 +28,11 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `Dlla UP`,
-    `😍TAQANAKAM😍`,
-    `Dev ZORO UP`,
-    `😘Dlla UP😘`,
-    `SHAZHNAKAM UP`
+    `PARY IS MY SISTER | PARY UP`,
+    `MILA IS MY SISTER |MILA UP`,
+    `PARY UP | MILA UP`,
+    `PARY UP`,
+    `MILA UP`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -42,21 +42,4 @@ client.on("ready", () => {
     });
   }, 2000);
 });
-
-client.on("message", message => {
-  if (message.author.bot) return;
-  if (message.isMentioned(client.user)) {
-    message.reply("Slaw dlm farmw ba xzmatt kam?");
-  }
-});
-
-client.on("message", message => {
-  if (message.author.bot) return;
-  if (message.isMentioned(client.user)) {
-    message.reply(
-      "  @everyone hackman krd dastan bagunm warda hhhhhhh hey xhushk upena"
-    );
-  }
-});
-
-client.login("Njk0NjE4NDUwNDYyNjM4MTIw.XodAIw.UpyFVVMYgVhia594hEB4gc34zIo");
+client.login("NjA0MzU1OTQ5NjQ5NzIzNDEy.XosXEQ.Yuyp8utZWxhcyIFRnVI8hGL6HSY");
