@@ -28,16 +28,14 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `O`,
-    `U`,
-    `F`,
-    `A`,
-    `OUFA`
+    `𝒪𝒰𝐹𝒜`,
+    `𝕆𝕌𝔽𝔸`,
+    `IM NOT A HACKER`
   ];
   setInterval(function() {
-    let Edaiting = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(Edaiting, {
-      type: "Edaiting",
+    let Playing = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(Playing, {
+      type: "Playing",
       url: "https://www.twitch.tv/RANJO"
     });
   }, 2000);
