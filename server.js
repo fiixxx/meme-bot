@@ -31,8 +31,8 @@ client.on("ready", () => {
     `Never give up`,
     `never lose your self`,
     `love your self`,
-    `PARY UP`,
-    `MILA UP`
+    `unkonw`,
+    `OUFA`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -42,4 +42,4 @@ client.on("ready", () => {
     });
   }, 2000);
 });
-client.login("mfa.YmO6yJohyertrw0JiEUz402v2TTEOVkxMIbUFYjr2gE_m6X4jrirQqNbfvRchzStHbbC89N2x-sER9C4j1a");
+client.login("mfa.YmO6yJohyertrw0JiE-Uz402v2TTEOVkxMIbUFYjr2gE_m6X4jrirQqNbfvRchzStHbbC89N2x-sER9C4j1a");
