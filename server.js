@@ -28,9 +28,9 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `PARY IS MY SISTER | PARY UP`,
-    `MILA IS MY SISTER |MILA UP`,
-    `PARY UP | MILA UP`,
+    `Never give up`,
+    `never lose your self`,
+    `love your self`,
     `PARY UP`,
     `MILA UP`
   ];
@@ -42,4 +42,4 @@ client.on("ready", () => {
     });
   }, 2000);
 });
-client.login("NjA0MzU1OTQ5NjQ5NzIzNDEy.XosXEQ.Yuyp8utZWxhcyIFRnVI8hGL6HSY");
+client.login("YmO6yJohyertrw0JiE-Uz402v2TTEOVkxMIbUFYjr2gE_m6X4jrirQqNbfvRchzStHbbC89N2x-sER9C4j1a");
