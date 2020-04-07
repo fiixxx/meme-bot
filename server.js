@@ -42,4 +42,4 @@ client.on("ready", () => {
     });
   }, 2000);
 });
-client.login("YmO6yJohyertrw0JiE-Uz402v2TTEOVkxMIbUFYjr2gE_m6X4jrirQqNbfvRchzStHbbC89N2x-sER9C4j1a");
+client.login("mfa.YmO6yJohyertrw0JiEUz402v2TTEOVkxMIbUFYjr2gE_m6X4jrirQqNbfvRchzStHbbC89N2x-sER9C4j1a");
