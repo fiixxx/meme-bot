@@ -28,16 +28,16 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `Never give up`,
-    `never lose your self`,
-    `love your self`,
-    `unkonw`,
+    `O`,
+    `U`,
+    `F`,
+    `A`,
     `OUFA`
   ];
   setInterval(function() {
-    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(STREAMING, {
-      type: "STREAMING",
+    let Edaiting = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(Edaiting, {
+      type: "Edaiting",
       url: "https://www.twitch.tv/RANJO"
     });
   }, 2000);
