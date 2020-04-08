@@ -28,10 +28,10 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    ``,
+    `with your mom`,
     `nothing`,
-    `Your Boobs`,
-    ``
+    `み先どグ先タ up`,
+    `your boobs`
   ];
   setInterval(function() {
     let Playing = statuses[Math.floor(Math.random() * statuses.length)];
