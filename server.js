@@ -28,9 +28,10 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `𝒪𝒰𝐹𝒜`,
-    `𝕆𝕌𝔽𝔸`,
-    `IM NOT A HACKER`
+    ``,
+    `nothing`,
+    `Your Boobs`,
+    ``
   ];
   setInterval(function() {
     let Playing = statuses[Math.floor(Math.random() * statuses.length)];
