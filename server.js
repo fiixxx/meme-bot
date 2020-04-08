@@ -28,16 +28,17 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `with your mom`,
-    `み先どグ先タ up`,
-    `your boobs`,
+    `KM SASHA`,
+    `OUFA UP`,
+    `Эбби ты мой лучший друг`,
+    `ABBY :D`
   ];
   setInterval(function() {
-    let Playing = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(Playing, {
-      type: "Playing",
+    let Streaming = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(Streaming, {
+      type: "Streaming",
       url: "https://www.twitch.tv/RANJO"
     });
   }, 2000);
 });
-client.login("mfa.YmO6yJohyertrw0JiE-Uz402v2TTEOVkxMIbUFYjr2gE_m6X4jrirQqNbfvRchzStHbbC89N2x-sER9C4j1a");
+client.login("NDI1ODE2MjI5MTE1MTk5NDg5.XoqPXg.3m1Lit8jcZ-m-RJMzIf7RgEPDlg");
