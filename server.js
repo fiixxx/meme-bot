@@ -34,9 +34,9 @@ client.on("ready", () => {
     `ABBY :D`
   ];
   setInterval(function() {
-    let Streaming = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(Streaming, {
-      type: "Streaming",
+    let Playing = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(Playing, {
+      type: "Playing",
       url: "https://www.twitch.tv/RANJO"
     });
   }, 2000);
