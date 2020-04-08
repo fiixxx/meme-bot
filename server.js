@@ -29,9 +29,8 @@ client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
     `with your mom`,
-    `nothing`,
     `み先どグ先タ up`,
-    `your boobs`
+    `your boobs`,
   ];
   setInterval(function() {
     let Playing = statuses[Math.floor(Math.random() * statuses.length)];
