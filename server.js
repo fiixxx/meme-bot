@@ -32,11 +32,12 @@ client.on("ready", () => {
     `OUFA UP`,
     `Эбби ты мой лучший друг`,
     `ABBY :D`
+    `Abigail <3`
   ];
   setInterval(function() {
-    let Playing = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(Playing, {
-      type: "Playing",
+    let Streaming = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(Streaming, {
+      type: "Streaming",
       url: "https://www.twitch.tv/RANJO"
     });
   }, 2000);
