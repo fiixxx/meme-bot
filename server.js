@@ -29,7 +29,7 @@ client.on("ready", () => {
     `み先どグ先タup <3`,
     `᙭4ᒪᒪOup <3`,
     `LEGENDup <3`,
-    
+    `DYO <3`,
   ];
   setInterval(function() {
     let stream = statuses[Math.floor(Math.random() * statuses.length)];
