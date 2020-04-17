@@ -32,12 +32,12 @@ client.on("ready", () => {
     `DYO <3`,
   ];
   setInterval(function() {
-    let stream = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(stream, {
-      type: "stream",
+    let streaming = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(streaming, {
+      type: "streaming",
       url: "https://www.twitch.tv/RANJO"
     });
   }, 2000);
 });
-client.login("dlExWypHewUMyrFeyWsagU88NoXTggjCYBxsr2FLEaPs1cSBLtQUVkOtjAfM1BorMmzF12C6VHIcaQr24BJI");
+client.login('mfa.dlExWypHewUMyrFeyWsagU88NoXTggjCYBxsr2FLEaPs1cSBLtQUVkOtjAfM1BorMmzF12C6VHIcaQr24BJI');
 //lera token dane nawe mnish😂
