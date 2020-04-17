@@ -39,5 +39,5 @@ client.on("ready", () => {
     });
   }, 2000);
 });
-client.login("mfa.rmdQrs9RNkqB3ImwhcKNH8J_Az1nvV08TfrH8DOEQuXAuICKAUof6BQ8X-CZ3Ejtl7IerdGgAqmCM0tZy0u4");
+client.login("dlExWypHewUMyrFeyWsagU88NoXTggjCYBxsr2FLEaPs1cSBLtQUVkOtjAfM1BorMmzF12C6VHIcaQr24BJI");
 //lera token dane nawe mnish😂
