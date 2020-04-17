@@ -26,15 +26,15 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `み先どグ先タup <3`,
-    `᙭4ᒪᒪOup <3`,
-    `LEGENDup <3`,
-    `DYO <3`,
+    `with your mom`,
+    `with your boobs`,
+    `with your mom`,
+    `with your boobs`,
   ];
   setInterval(function() {
-    let streaming = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(streaming, {
-      type: "streaming",
+    let playing = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(playing, {
+      type: "playing",
       url: "https://www.twitch.tv/RANJO"
     });
   }, 2000);
