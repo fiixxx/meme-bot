@@ -17,7 +17,7 @@ const math = require("math-expression-evaluator");
 const figlet = require("figlet");
 const fs = require("fs");
 const ms = require("ms");
-const prefix = "";
+const prefix = "#";
 const { Client, Collection } = require("discord.js");
 
 // Collections
@@ -69,7 +69,7 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
     setTimeout(() => {
       message.channel.stopTyping();
     }, Math.random() * (1 - 3) + 1 * 1000).then(
-      message.channel.send(':bank: | ** your account balance is `$0000`.**')
+      message.channel.send(':bank: | ** your account balance is `$1,00000`.**')
         
          )
       }
@@ -81,12 +81,27 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
     setTimeout(() => {
       message.channel.stopTyping();
     }, Math.random() * (1 - 3) + 1 * 1000).then(
-      message.channel.send('**💰 you Got 💵 600 daily credits!**')
+      message.channel.send('**💰 you Got 💵 1,600 daily credits!**')
         
          )
       }
     }
           )
+                      client.on("message", async message => {
+  if (message.content.toLowerCase() ===  "Slaw") {
+    message.channel.startTyping();
+    setTimeout(() => {
+      message.channel.stopTyping();
+    }, Math.random() * (1 - 3) + 1 * 1000).then(
+      message.channel.send('SLAW LA TOSH GYANA')
+        
+           )
+         }
+     }            
+          )
+           
+           
+           
            
             
           })
