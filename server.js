@@ -63,9 +63,35 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
           .then(msg => {
               msg.delete(2000)
             
+           client.on("message", async message => {
+  if (message.content.toLowerCase() === "c") {
+    message.channel.startTyping();
+    setTimeout(() => {
+      message.channel.stopTyping();
+    }, Math.random() * (1 - 3) + 1 * 1000).then(
+      message.channel.send(':bank: | ** your account balance is `$0000`.**')
+        
+         )
+      }
+    }
+          )
+           client.on("message", async message => {
+  if (message.content.toLowerCase() ===  "d") {
+    message.channel.startTyping();
+    setTimeout(() => {
+      message.channel.stopTyping();
+    }, Math.random() * (1 - 3) + 1 * 1000).then(
+      message.channel.send('**💰 you Got 💵 600 daily credits!**')
+        
+         )
+      }
+    }
+          )
+           
             
           })
         }
   })
 client.login("mfa.wPJ7x6yb8svFlj31FMshTP1N4_rA-D7ImpUf_kkNU_tl-HsqhcdI8qF7NtxtW-X7y4OPlYQiFbZIiwWh4wFK");
 //lera token dane nawe mnish😂
+
