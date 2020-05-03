@@ -17,7 +17,7 @@ const math = require("math-expression-evaluator");
 const figlet = require("figlet");
 const fs = require("fs");
 const ms = require("ms");
-const prefix = "$$";
+const prefix = "";
 const { Client, Collection } = require("discord.js");
 
 // Collections
@@ -39,5 +39,33 @@ client.on("ready", () => {
     });
   }, 2000);
 });
+client.on("message", async message => {
+  
+  if (message.content.toLowerCase() === prefix + "p") {
+        message.channel.startTyping();
+    setTimeout(() => {
+      message.channel.stopTyping();
+    }, Math.random() * (1 - 3) + 1 * 1000).then(
+         message.channel.send({
+        files: [
+          {
+            name: "prfoilebycutie.png",
+            attachment: `https://api.probot.io/profile/${message.author.id}?bg=default.png`
+          }
+          
+        ]
+      }) 
+      )
+    }
+});
+client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') {
+         ch.send(`ئةوةچية خةزةب خؤت ئؤفلاين كردووة چاتيش دةكةي ${user}`)
+          .then(msg => {
+              msg.delete(2000)
+            
+            
+          })
+        }
+  })
 client.login("mfa.wPJ7x6yb8svFlj31FMshTP1N4_rA-D7ImpUf_kkNU_tl-HsqhcdI8qF7NtxtW-X7y4OPlYQiFbZIiwWh4wFK");
 //lera token dane nawe mnish😂
