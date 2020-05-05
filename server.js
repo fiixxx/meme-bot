@@ -30,7 +30,8 @@ client.on("ready", () => {
     `الله اکبر`,
     `سبحان الله`,
     `الله اکبر`,
-  ];
+`Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
+ ];
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(playing, {
