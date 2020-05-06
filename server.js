@@ -108,6 +108,6 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
           })
         }
   })
-client.login("mfa.wPJ7x6yb8svFlj31FMshTP1N4_rA-D7ImpUf_kkNU_tl-HsqhcdI8qF7NtxtW-X7y4OPlYQiFbZIiwWh4wFK");
+client.login("");
 //lera token dane nawe mnish😂
 
