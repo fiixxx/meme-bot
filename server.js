@@ -17,7 +17,7 @@ const math = require("math-expression-evaluator");
 const figlet = require("figlet");
 const fs = require("fs");
 const ms = require("ms");
-const prefix = "#";
+const prefix = "";
 const { Client, Collection } = require("discord.js");
 
 // Collections
@@ -26,9 +26,9 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `سبحان الله`,
-    `الله اکبر`,
-    `سبحان الله`,
+    `!      𝐇𝐀𝐉𝐈๏𝐌𝐄𝐊𝐌𝐄𝐊📿`,
+    `!                𝗛𝗔𝗝𝗘 ๏𝗦𝗛𝗘𝗟𝗕𝗬📿`,
+    `༆ 𝐿𝑂𝑅𝐷 _  𝑆𝑄𝑊𝐴𝐷 ༆`,
     `الله اکبر`,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
@@ -108,6 +108,7 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
           })
         }
   })
-client.login("");
+client.login
+("mfa.0UKyCTb064xKAmZVZCCPY5cjLuMrhmKbVu4OVaog9mPYXblBhwTj1yiTfZh7L7VgKBnv5-Oh881K-Ot5ZPyB");
 //lera token dane nawe mnish😂
 
