@@ -70,7 +70,7 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
     setTimeout(() => {
       message.channel.stopTyping();
     }, Math.random() * (1 - 3) + 1 * 1000).then(
-      message.channel.send(':bank: | ** your account balance is `$1,00000`.**')
+      message.channel.send(':bank: | ** your account balance is `$10,00000`.**')
         
          )
       }
@@ -82,7 +82,7 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
     setTimeout(() => {
       message.channel.stopTyping();
     }, Math.random() * (1 - 3) + 1 * 1000).then(
-      message.channel.send('**💰 you Got 💵 1,600 daily credits!**')
+      message.channel.send('**💰 you Got 💵 10,600 daily credits!**')
         
          )
       }
