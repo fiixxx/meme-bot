@@ -76,7 +76,7 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
     }
           )
            client.on("message", async message => {
-  if (message.content.toLowerCase() ===  "daily") {
+  if (message.content.toLowerCase() ===  "d") {
     message.channel.startTyping();
     setTimeout(() => {
       message.channel.stopTyping();
