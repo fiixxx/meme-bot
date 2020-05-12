@@ -27,7 +27,7 @@ client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
     `!      ⛓⚙𝑷𝑨𝑵𝑫𝑨๏𝑺𝑯𝑬𝑳𝑩𝒀⚙⛓`,
-    `!                SHELBY UP⌨`,
+    `!                ☠3abce UP☠`,
     `☠ᵈᵉᵛ➪𝑷𝑨𝑵𝑫𝑨☠`,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
