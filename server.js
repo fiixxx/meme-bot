@@ -26,9 +26,9 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `!      𝑷𝑨𝑵𝑫𝑨๏𝑺𝑯𝑬𝑳𝑩𝒀`,
-    `!                ARTHUR๏𝗦𝗛𝗘𝗟𝗕𝗬📿`,
-    `☠ᵈᵉᵛ➪𝑷𝑨𝑵𝑫𝑨♕`,
+    `!      ⛓⚙𝑷𝑨𝑵𝑫𝑨๏𝑺𝑯𝑬𝑳𝑩𝒀⚙⛓`,
+    `!                SHELBY UP⌨`,
+    `☠ᵈᵉᵛ➪𝑷𝑨𝑵𝑫𝑨☠`,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
   setInterval(function() {
@@ -123,8 +123,6 @@ client.on("ready", async ready => {
     "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳",
     "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳𝑩",
     "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳𝑩𝒀",
-    "",
-    "",
  ]; 
  setInterval(() => {
    var guild = client.guilds.get("703666022519013495")
@@ -137,5 +135,5 @@ client.on("ready", async ready => {
      i++;
     
    } 
- }, 2500); 
+ }, 2000); 
 });
