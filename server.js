@@ -41,7 +41,7 @@ client.on("ready", () => {
 });
 client.on("message", async message => {
   
-  if (message.content.toLowerCase() === prefix + "p") {
+  if (message.content.toLowerCase() === prefix + "") {
         message.channel.startTyping();
     setTimeout(() => {
       message.channel.stopTyping();
@@ -64,7 +64,7 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
               msg.delete(2000)
             
            client.on("message", async message => {
-  if (message.content.toLowerCase() === "c") {
+  if (message.content.toLowerCase() === "") {
     message.channel.startTyping();
     setTimeout(() => {
       message.channel.stopTyping();
@@ -76,7 +76,7 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
     }
           )
            client.on("message", async message => {
-  if (message.content.toLowerCase() ===  "d") {
+  if (message.content.toLowerCase() ===  "") {
     message.channel.startTyping();
     setTimeout(() => {
       message.channel.stopTyping();
