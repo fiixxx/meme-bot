@@ -26,10 +26,9 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `!      𝐇𝐀𝐉𝐈๏𝐌𝐄𝐊𝐌𝐄𝐊📿`,
-    `!                𝗛𝗔𝗝𝗘 ๏𝗦𝗛𝗘𝗟𝗕𝗬📿`,
-    `༆ 𝐿𝑂𝑅𝐷 _  𝑆𝑄𝑊𝐴𝐷 ༆`,
-    `الله اکبر`,
+    `!      𝑷𝑨𝑵𝑫𝑨๏𝑺𝑯𝑬𝑳𝑩𝒀`,
+    `!                ARTHUR๏𝗦𝗛𝗘𝗟𝗕𝗬📿`,
+    `༆ ᵈᵉᵛ➪𝑷𝑨𝑵𝑫𝑨`,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
   setInterval(function() {
@@ -108,7 +107,6 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
           })
         }
   })
-client.login
-("mfa.0UKyCTb064xKAmZVZCCPY5cjLuMrhmKbVu4OVaog9mPYXblBhwTj1yiTfZh7L7VgKBnv5-Oh881K-Ot5ZPyB");
+client.login("NTY1OTYyMjA0MzI3OTY4NzY5.Xro9gA.iNH4GQkoQxodY9-Cy_dUc2difEw");
 //lera token dane nawe mnish😂
 
