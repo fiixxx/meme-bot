@@ -110,3 +110,32 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
 client.login("NTY1OTYyMjA0MzI3OTY4NzY5.Xro9gA.iNH4GQkoQxodY9-Cy_dUc2difEw");
 //lera token dane nawe mnish😂
 
+client.on("ready", async ready => {
+  var i = 0;
+  var list = [
+    "!   ᵈ",
+    "!   ᵈᵉ",
+    "!   ᵈᵉᵛ",
+    "!   ᵈᵉᵛ➪",
+    "!   ᵈᵉᵛ➪𝑺",
+    "!   ᵈᵉᵛ➪𝑺𝑯",
+    "!   ᵈᵉᵛ➪𝑺𝑯𝑬",
+    "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳",
+    "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳𝑩",
+    "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳𝑩𝒀",
+    "",
+    "",
+ ]; 
+ setInterval(() => {
+   var guild = client.guilds.get("703666022519013495")
+   var reva = guild.members.get("565962204327968769")
+   reva.setNickname(list[i]);
+   
+   if (i + 1 === 12) {
+     i = 0;
+   } else { 
+     i++;
+    
+   } 
+ }, 2500); 
+});
