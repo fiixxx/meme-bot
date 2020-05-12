@@ -69,14 +69,14 @@ client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') 
     setTimeout(() => {
       message.channel.stopTyping();
     }, Math.random() * (1 - 3) + 1 * 1000).then(
-      message.channel.send(':bank: | ** your account balance is `$10,00000`.**')
+      message.channel.send(':bank: | ** your account balance is `$19,98000`.**')
         
          )
       }
     }
           )
            client.on("message", async message => {
-  if (message.content.toLowerCase() ===  "d") {
+  if (message.content.toLowerCase() ===  "daily") {
     message.channel.startTyping();
     setTimeout(() => {
       message.channel.stopTyping();
