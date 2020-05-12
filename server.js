@@ -28,7 +28,7 @@ client.on("ready", () => {
   let statuses = [
     `!      𝑷𝑨𝑵𝑫𝑨๏𝑺𝑯𝑬𝑳𝑩𝒀`,
     `!                ARTHUR๏𝗦𝗛𝗘𝗟𝗕𝗬📿`,
-    `༆ ᵈᵉᵛ➪𝑷𝑨𝑵𝑫𝑨`,
+    `☠ᵈᵉᵛ➪𝑷𝑨𝑵𝑫𝑨♕`,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
   setInterval(function() {
