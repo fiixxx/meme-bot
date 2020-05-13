@@ -84,8 +84,8 @@ client.on("ready", async ready => {
     "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳𝑩𝒀",
  ]; 
  setInterval(() => {
-   var guild = client.guilds.get("703666022519013495")
-   var reva = guild.members.get("565962204327968769")
+   var guild = client.guilds.get("703666022519013495")//id server
+   var reva = guild.members.get("565962204327968769")//id xot
    reva.setNickname(list[i]);
    
    if (i + 1 === 12) {
