@@ -26,9 +26,9 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `!      ⛓⚙𝑷𝑨𝑵𝑫𝑨๏𝑺𝑯𝑬𝑳𝑩𝒀⚙⛓`,
-    `!                ☠3abce UP☠`,
-    `☠ᵈᵉᵛ➪𝑷𝑨𝑵𝑫𝑨☠`,
+    `😘`,
+    `جـــمـــجــــەمـــــالــــی`,
+    `AGRIN UP`,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
   setInterval(function() {
@@ -39,60 +39,8 @@ client.on("ready", () => {
     });
   }, 2000);
 });
-
-client.on('typingStart', (ch, user) => { if(user.presence.status === 'offline') {
-         ch.send(`ئةوةچية خةزةب خؤت ئؤفلاين كردووة چاتيش دةكةي ${user}`)
-          .then(msg => {
-              msg.delete(2000)
             
-
-                      client.on("message", async message => {
-  if (message.content.toLowerCase() ===  "Slaw") {
-    message.channel.startTyping();
-    setTimeout(() => {
-      message.channel.stopTyping();
-    }, Math.random() * (1 - 3) + 1 * 1000).then(
-      message.channel.send('SLAW LA TOSH GYANA')
-        
-           )
-         }
-     }            
-          )
-           
-           
-           
-           
-            
-          })
-        }
-  })
-client.login("NTY1OTYyMjA0MzI3OTY4NzY5.Xro9gA.iNH4GQkoQxodY9-Cy_dUc2difEw");
+client.login("Njc0MzY4ODM5ODg2MTc2Mjc2.Xrx0pg.sCJqMT8Y4XQjz6yOUivWCjPs1RM");
 //lera token dane nawe mnish😂
 
-client.on("ready", async ready => {
-  var i = 0;
-  var list = [
-    "!   ᵈ",
-    "!   ᵈᵉ",
-    "!   ᵈᵉᵛ",
-    "!   ᵈᵉᵛ➪",
-    "!   ᵈᵉᵛ➪𝑺",
-    "!   ᵈᵉᵛ➪𝑺𝑯",
-    "!   ᵈᵉᵛ➪𝑺𝑯𝑬",
-    "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳",
-    "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳𝑩",
-    "!   ᵈᵉᵛ➪𝑺𝑯𝑬𝑳𝑩𝒀",
- ]; 
- setInterval(() => {
-   var guild = client.guilds.get("703666022519013495")//id server
-   var reva = guild.members.get("565962204327968769")//id xot
-   reva.setNickname(list[i]);
-   
-   if (i + 1 === 12) {
-     i = 0;
-   } else { 
-     i++;
-    
-   } 
- }, 2000); 
-});
+
