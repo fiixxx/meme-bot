@@ -26,7 +26,19 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `〔ᴱᴰᵀ CHARLIE〕`,``,``
+    
+    `KAK TONY UP`,
+    
+   ` BRAY BOTAKAN`, 
+    
+    
+    `〔ᴱᴰᵀ CHARLIE〕`,
+    
+    
+    
+    
+    
+    
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
   setInterval(function() {
@@ -38,7 +50,13 @@ client.on("ready", () => {
   }, 2000);
 });
             
+
+
+client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  let c = g.channels.get("709188187356004362"); if(c.type === 'voice') { c.join(); setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
+
+
+
 client.login("NjQ2NzIwODY4MzEwOTc0NDc3.XsS2OQ.5Z5MERHdcdrfJxPLEpAyf1a_uAg");
-//lera token dane nawe mnish😂
+//ByAGRIN
 
 
