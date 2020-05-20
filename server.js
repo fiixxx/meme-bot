@@ -26,9 +26,9 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    `😘`,
-    `جـــمـــجــــەمـــــالــــی`,
-    `AGRIN UP`,
+    ``,
+    ``,
+    ``,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
   setInterval(function() {
@@ -40,7 +40,7 @@ client.on("ready", () => {
   }, 2000);
 });
             
-client.login("Njc0MzY4ODM5ODg2MTc2Mjc2.Xrx0pg.sCJqMT8Y4XQjz6yOUivWCjPs1RM");
+client.login("");
 //lera token dane nawe mnish😂
 
 
