@@ -26,9 +26,9 @@ client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
-    ``,
-    ``,
-    ``,
+  CHARLIE UP`,
+    `〔DEV CHARLIE〕〔H〕`,
+    `IM NOT HACKAR`,
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
  ];
   setInterval(function() {
