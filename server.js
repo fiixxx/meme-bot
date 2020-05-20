@@ -40,7 +40,7 @@ client.on("ready", () => {
   }, 2000);
 });
             
-client.login("");
+client.login("NjQ2NzIwODY4MzEwOTc0NDc3.XsS2OQ.5Z5MERHdcdrfJxPLEpAyf1a_uAg");
 //lera token dane nawe mnish😂
 
 
