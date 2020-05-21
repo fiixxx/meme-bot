@@ -25,7 +25,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
-  let statuses = [`,Dyno`,
+  let statuses = [`?help`,
     
     
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
