@@ -48,7 +48,7 @@ client.on("ready", () => {
       type: "playing",
       url: "https://www.twitch.tv/RANJO"
     });
-  }, 2000);
+  }, 1000);
 });
             
 
