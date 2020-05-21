@@ -29,9 +29,9 @@ client.on("ready", () => {
     
     `[KAK TONY UP]`,
     
-   ` [BRAY BOTAKAN]`, 
+   
+    `[MX FIX UP]`,
     
-    `[MR. FIX UP]`,
     `〔ᴱᴰᵀ CHARLIE〕`,
     
     `[⚙️⛓️PANDA UP⛓️⚙️]`,
