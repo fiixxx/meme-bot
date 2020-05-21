@@ -27,13 +27,14 @@ client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
     
-    `KAK TONY UP`,
+    `[KAK TONY UP]`,
     
-   ` BRAY BOTAKAN`, 
+   ` [BRAY BOTAKAN]`, 
     
-    
+    `[MR. FIX UP]`,
     `〔ᴱᴰᵀ CHARLIE〕`,
     
+    `[⚙️⛓️PANDA UP⛓️⚙️]`,
     
     
     
