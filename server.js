@@ -27,7 +27,7 @@ client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
   let statuses = [
     
-    `[KAK TONY UP]`,
+    `[ᴋᴀᴋ TONY UP]`,
     
    
     `[MX FIX UP]`,
