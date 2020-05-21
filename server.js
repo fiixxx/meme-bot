@@ -25,19 +25,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`Online In Servers : ${client.guilds.size} `);
-  let statuses = [
-    
-    `[ᴋᴀᴋ TONY UP]`,
-    
-   
-    `[MX FIX UP]`,
-    
-    `〔ᴱᴰᵀ CHARLIE〕`,
-    
-    `[⚙️⛓️PANDA UP⛓️⚙️]`,
-    
-    
-    
+  let statuses = [`,Dyno`,
     
     
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
@@ -53,11 +41,7 @@ client.on("ready", () => {
             
 
 
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  let c = g.channels.get("709188187356004362"); if(c.type === 'voice') { c.join(); setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
-
-
-
-client.login("NjQ2NzIwODY4MzEwOTc0NDc3.XsS2OQ.5Z5MERHdcdrfJxPLEpAyf1a_uAg");
+client.login("NjMyNDU5MzQ0MTM4NDY5NDQ3.Xsbyyw.EmcsrmZ8M2SrLz3QXYD4Bwkiu6I");
 //ByAGRIN
 
 
