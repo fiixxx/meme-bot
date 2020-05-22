@@ -24,8 +24,8 @@ const { Client, Collection } = require("discord.js");
 client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
-  console.log(`Online In Servers : ${client.guilds.size} `);
-  let statuses = [`dyno.gg|?help`,
+  console.log(`: ${client.guilds.size} `);
+  let statuses = [`#help`,
     
     
 `Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
