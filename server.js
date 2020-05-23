@@ -24,11 +24,11 @@ const { Client, Collection } = require("discord.js");
 client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
-  console.log(`: ${client.guilds.size} `);
-  let statuses = [`help`,
+  console.log(`${client.guilds.size} `);
+  let statuses = [`dyon.gg| ?help`,
     
     
-`Servers: ${client.guilds.size} | Users: ${client.users.size}`, 
+``, 
  ];
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
@@ -41,7 +41,7 @@ client.on("ready", () => {
             
 
 
-client.login("NjMyNDU5MzQ0MTM4NDY5NDQ3.Xsbyyw.EmcsrmZ8M2SrLz3QXYD4Bwkiu6I");
+client.login("NjMyNDU5MzQ0MTM4NDY5NDQ3.XsjOMQ.7huwDKx0wzGQ8zT03KTqrxx4g3o");
 //ByAGRIN
 
 
