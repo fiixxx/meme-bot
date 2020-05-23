@@ -25,7 +25,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`${client.guilds.size} `);
-  let statuses = [`dyon.gg| ?help`,
+  let statuses = [`dyno.gg| ?help`,
     
     
 ``, 
