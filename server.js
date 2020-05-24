@@ -41,7 +41,7 @@ client.on("ready", () => {
             
 
 
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  let c = g.channels.get("708732757689499719"); if(c.type === 'voice') { c.join(); setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
+client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("697134729669115924");  let c = g.channels.get("709153966147108935"); if(c.type === 'voice') { c.join(); setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
 
 
 
