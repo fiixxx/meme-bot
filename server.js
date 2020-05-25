@@ -41,12 +41,11 @@ client.on("ready", () => {
             
 
 
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("697134729669115924");  let c = g.channels.get("709153966147108935"); if(c.type === 'voice') { c.join(); setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
 
 
 
 
-client.login("NjMyNDU5MzQ0MTM4NDY5NDQ3.XsjOMQ.7huwDKx0wzGQ8zT03KTqrxx4g3o");
+client.login("");
 //ByAGRIN
 
 
