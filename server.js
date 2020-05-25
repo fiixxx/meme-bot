@@ -25,7 +25,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`${client.guilds.size} `);
-  let statuses = [`dyno.gg| ?help`,
+  let statuses = [` $agrin`,
     
     
 ``, 
@@ -39,9 +39,6 @@ client.on("ready", () => {
   }, 500);
 });
             
-
-
-
 
 
 
