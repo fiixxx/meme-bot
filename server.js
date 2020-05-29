@@ -25,7 +25,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`${client.guilds.size} `);
-  let statuses = [`<AGRIN`,`MIKMIK*m`,]
+  let statuses = [`<AGRIN/>`,`/MIKMIK*m`,]
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(playing, {
