@@ -25,11 +25,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`${client.guilds.size} `);
-  let statuses = [`ByAGRIN`,
-    
-    
-``, 
- ];
+  let statuses = [`ByAGRIN`,]
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(playing, {
@@ -42,7 +38,7 @@ client.on("ready", () => {
 
 
 
-client.login("");
+client.login("Njk0ODkxODE2NjgzNTY5MjEz.XtBo-A.7vaSFJJ73QPwjMLIgBha3TIENpk");
 //ByAGRIN
 
 
