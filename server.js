@@ -25,7 +25,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
   console.log(`${client.guilds.size} `);
-  let statuses = [`<AGRIN/>`,`/MIKMIK*m`,]
+  let statuses = [`<AGRIN/>`,`/=/MIKMIK*m`,]
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(playing, {
@@ -37,7 +37,8 @@ client.on("ready", () => {
             
 
 client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  
-                                                             let c = g.channels.get("709045446328451082"); if(c.type === 'voice') { c.join(); 
+                                                             let c = g.channels.get("709045446328451082"); 
+                                     if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
 
