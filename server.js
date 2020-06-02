@@ -24,7 +24,7 @@ const { Client, Collection } = require("discord.js");
 client.commands = new Collection();
 client.aliases = new Collection();
 client.on("ready", () => {
-  console.log(`${client.guilds.size} `);
+  console.log(`${cliet.guilds.size} `);
   let statuses = [`/=/AGRIN+>`,`/=/MIKMIK*m`,`i’m  PROFESSOR`,]
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
