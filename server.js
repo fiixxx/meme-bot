@@ -24,26 +24,28 @@ const { Client, Collection } = require("discord.js");
 client.commands = new Collection();
 client.aliases = new Collection();
 
-client.on("ready", () => {
-  console.log(`.guilds.size} `);
-  let statuses = [
-    `MarOo.!`
-    `Prince.!`
-    ];
 
-  client.user.setStatus("idle");
-  
+client.on("ready", () => {
+  console.log(
+    `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
+  );
+  let statuses = [
+    `ℳᗅℛՏ`,
+    `7͍2͍1͍ u͍p͍`,
+    `باپیرە گەورەی بۆتەکان`
+  ];
   setInterval(function() {
-    let playing = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(playing, {
-      type: "playing",
-      
+    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
+    client.user.setActivity(STREAMING, {
+      type: "STREAMING",
+      url: "https://www.twitch.tv/faith"
     });
-  }, 500);
+  }, 2000);
 });
+
             
 
-client.on('idle',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  
+client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  
                                                              let c = g.channels.get("709045446328451082"); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
@@ -51,7 +53,7 @@ client.on('idle',async () => { console.log("Starting.."); let g = client.guilds.
 
 
 
-client.login("");
-//ByAGRIN
+client.login("NjkxMDg5MjU3OTg0NTU3MDk2.XtY9YQ.444RPRfHwbBR39cjiwp2n9ylIQc");
+//Bymars
 
 
