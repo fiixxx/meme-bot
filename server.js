@@ -33,7 +33,8 @@ client.on("ready", () => {
     `ℳᗅℛՏ`,
     `7͍2͍1͍ u͍p͍`,
     `باپیرە گەورەی بۆتەکان`,
-    `😴 ئەها چەکی بایخە ناو دەوت ئەوها بخۆ `
+    `😴 CHUCKE DLLE MARS 10000 CRIDET `,
+    `مەخسەدم کۆسار`,
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
