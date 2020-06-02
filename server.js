@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://shellwelcomer.glitch.me/`);
+  http.get(`http://.glitch.me/`);
 }, 280000);
 
 const Discord = require("discord.js");
@@ -23,20 +23,27 @@ const { Client, Collection } = require("discord.js");
 // Collections
 client.commands = new Collection();
 client.aliases = new Collection();
+
 client.on("ready", () => {
-  console.log(`${cliet.guilds.size} `);
-  let statuses = [`/=/AGRIN+>`,`/=/MIKMIK*m`,`i’m  PROFESSOR`,]
+  console.log(`.guilds.size} `);
+  let statuses = [
+    `MarOo.!`
+    `Prince.!`
+    ];
+
+  client.user.setStatus("idle");
+  
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(playing, {
       type: "playing",
-      url: "https://www.twitch.tv/RANJO"
+      
     });
   }, 500);
 });
             
 
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  
+client.on('idle',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  
                                                              let c = g.channels.get("709045446328451082"); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
@@ -44,7 +51,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("Njk0ODkxODE2NjgzNTY5MjEz.XtUopw.njWhB2OJW8KtkkS9liXfkhDb1PY");
+client.login("");
 //ByAGRIN
 
 
