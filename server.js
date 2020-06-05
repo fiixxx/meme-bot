@@ -30,7 +30,7 @@ client.on("ready", () => {
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
   let statuses = [
-    `ℳᗅℛՏ `,`7͍2͍1͍ u͍p͍`,
+    `ℳᗅℛՏ `,`Esa gurga`,
     `باپیرە گەورەی بۆتەکان`
   ];
   setInterval(function() {
