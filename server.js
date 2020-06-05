@@ -52,7 +52,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("NjkxMDg5MjU3OTg0NTU3MDk2.XtY9YQ.444RPRfHwbBR39cjiwp2n9ylIQc");
+client.login("");
 //Bymars
 
 
