@@ -42,7 +42,8 @@ client.on("ready", () => {
   }, 2000);
 });
 
-            
+
+        
 
 client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("614520917401534494");  
                                                              let c = g.channels.get("709045446328451082"); 
@@ -52,7 +53,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("");
+client.login("NjkxMDg5MjU3OTg0NTU3MDk2.XtrO6w.Bmx4NdBR3ZJBPdnQXcphidHuGXQ");
 //Bymars
 
 
