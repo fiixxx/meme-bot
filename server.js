@@ -30,7 +30,7 @@ client.on("ready", () => {
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
   let statuses = [
-    `ℳᗅℛՏ `,`Esa gurga`,
+    `ha lo awha tamasha dakay`,
     `باپیرە گەورەی بۆتەکان`
   ];
   setInterval(function() {
@@ -53,7 +53,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("NjkxMDg5MjU3OTg0NTU3MDk2.XtrO6w.Bmx4NdBR3ZJBPdnQXcphidHuGXQ");
+client.login("NjkxMDg5MjU3OTg0NTU3MDk2.Xt1SFw.zJiFE5rf5hkH5weqoMd7vSPhODk");
 //Bymars
 
 
