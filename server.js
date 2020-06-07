@@ -30,7 +30,7 @@ client.on("ready", () => {
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
   let statuses = [
-    `ha lo awha tamasha dakay`,
+    `♕721♕👑 KOSAR 👑 SlEeP`,
     `باپیرە گەورەی بۆتەکان`
   ];
   setInterval(function() {
