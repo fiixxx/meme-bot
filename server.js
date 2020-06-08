@@ -30,8 +30,10 @@ client.on("ready", () => {
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
   let statuses = [
-    `♕721♕👑 KOSAR 👑 SlEeP`,
-    `باپیرە گەورەی بۆتەکان`
+    ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
+    ``,
+    ``,
+    ``
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -53,7 +55,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("NjkxMDg5MjU3OTg0NTU3MDk2.Xt1SFw.zJiFE5rf5hkH5weqoMd7vSPhODk");
+client.login("");/////لێرە تۆکینیەکە دانێ
 //Bymars
 
 
