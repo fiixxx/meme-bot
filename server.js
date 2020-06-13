@@ -34,7 +34,8 @@ client.on("ready", () => {
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     `چاوەڕێی خاپەبە لەبەرامبەر چاکەکانت`,
     `مرۆڤەکان هەر وابوون خۆ پەرت `,
-    `سوپ`
+    `سوپ`,
+    `bapira mars❦︎`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -56,7 +57,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("");/////لێرە تۆکینیەکە دانێ
+client.login("Njc4Mjk5NTY4MDEzNTc0MTY1.XuTRmw.iHg3NfVpdRsnAifdRysKk3yv79k");/////لێرە تۆکینیەکە دانێ
 //Bymars
 ////////////☝ئەلێرەدا تۆکینی ئەکانت دانێ
 
