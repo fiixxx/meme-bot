@@ -1,3 +1,4 @@
+/////ئەلێرەدا دەستکاری هیچ شتێک مەکە تەنها ئەوانەی خوارەوەنەبێت
 const http = require("http");
 const express = require("express");
 const app = express();
@@ -20,7 +21,7 @@ const ms = require("ms");
 const prefix = "";
 const { Client, Collection } = require("discord.js");
 
-// Collections
+// Collections by mars
 client.commands = new Collection();
 client.aliases = new Collection();
 
@@ -57,5 +58,5 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 client.login("");/////لێرە تۆکینیەکە دانێ
 //Bymars
-
+////////////☝ئەلێرەدا تۆکینی ئەکانت دانێ
 
