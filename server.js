@@ -32,9 +32,9 @@ client.on("ready", () => {
   );
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
-    ``,
-    ``,
-    ``
+    `چاوەڕێی خاپەبە لەبەرامبەر چاکەکانت`,
+    `مرۆڤەکان هەر وابوون خۆ پەرت `,
+    `سوپ`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
