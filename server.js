@@ -32,10 +32,9 @@ client.on("ready", () => {
   );
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
-    `چاوەڕێی خاپەبە لەبەرامبەر چاکەکانت`,
-    `مرۆڤەکان هەر وابوون خۆ پەرت `,
-    `سوپ`,
-    `bapira mars❦︎`
+    `کوڕە لادێیم`,
+    `mars❦︎`,
+    `😜😜(1........99.100)❤`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -57,7 +56,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("Njc4Mjk5NTY4MDEzNTc0MTY1.XuTRmw.iHg3NfVpdRsnAifdRysKk3yv79k");/////لێرە تۆکینیەکە دانێ
+client.login("NjM1MDIyODgyMTYxODE5NjU4.XuTrDg.iu1ZX6XUCJY6ZlZ6WdoAPqys5c8");/////لێرە تۆکینیەکە دانێ
 //Bymars
 ////////////☝ئەلێرەدا تۆکینی ئەکانت دانێ
 
