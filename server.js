@@ -1,4 +1,4 @@
-/////ئەلێرەدا دەستکاری هیچ شتێک مەکە تەنها ئەوانەی خوارەوەنەبێت
+
 const http = require("http");
 const express = require("express");
 const app = express();
@@ -57,6 +57,5 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 client.login("NjM1MDIyODgyMTYxODE5NjU4.XuTrDg.iu1ZX6XUCJY6ZlZ6WdoAPqys5c8");/////لێرە تۆکینیەکە دانێ
-//Bymars
-////////////☝ئەلێرەدا تۆکینی ئەکانت دانێ
+//Bymars     ێ
 
