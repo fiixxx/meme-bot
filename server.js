@@ -49,7 +49,7 @@ client.on("ready", () => {
         
 
 client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("672044546359689216");  
-                                                             let c = g.channels.get("672046133660483584"); 
+                                                             let c = g.channels.get("700801944121245858"); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
