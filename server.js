@@ -18,7 +18,7 @@ const math = require("math-expression-evaluator");
 const figlet = require("figlet");
 const fs = require("fs");
 const ms = require("ms");
-const prefix = ".";
+const prefix = "";
 const { Client, Collection } = require("discord.js");
 
 // Collections by mars
@@ -49,13 +49,13 @@ client.on("ready", () => {
         
 
 client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("672044546359689216");  
-                                                             let c = g.channels.get("707702983214760011"); 
+                                                             let c = g.channels.get("672046133660483584"); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
 
 
 
-client.login("NjkxMDg5MjU3OTg0NTU3MDk2.XujxdA.a2Q3bj2AuUW_y-CbY_raWBoxYKY");/////لێرە تۆکینیەکە دانێ
+client.login("NjkxMDg5MjU3OTg0NTU3MDk2.XukPmw.dDnTrsKJAhFqFe2zFib3QBdMDQA");/////لێرە تۆکینیەکە دانێ
 //Bymars 
 
