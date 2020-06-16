@@ -56,6 +56,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("NjkxMDg5MjU3OTg0NTU3MDk2.Xt1SFw.zJiFE5rf5hkH5weqoMd7vSPhODk");/////لێرە تۆکینیەکە دانێ
+client.login("");/////لێرە تۆکینیەکە دانێ
 //Bymars 
 
