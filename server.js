@@ -33,8 +33,8 @@ client.on("ready", () => {
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     `باپیرە گەورەی بۆتەکان`,
-    `mars❦︎`,
-    
+    `❥︎𝕞𝕒𝕣𝕤𓆙`,
+    `❥︎𝕚𝕞 𝕟𝕠𝕥 𝕙𝕒𝕔𝕜𝕖𝕣...!`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -56,6 +56,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
 
 
 
-client.login("NjkxMDg5MjU3OTg0NTU3MDk2.XukPmw.dDnTrsKJAhFqFe2zFib3QBdMDQA");/////لێرە تۆکینیەکە دانێ
+client.login("NjkxMDg5MjU3OTg0NTU3MDk2.Xup__g.IX67fPgX3QB5BtxxSJvqLVetXXg");/////لێرە تۆکینیەکە دانێ
 //Bymars 
 
