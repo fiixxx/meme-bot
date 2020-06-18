@@ -12,9 +12,9 @@ setInterval(() => {
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const moment = require("moment");
+const moment = require("moment");                              //////     DEV MARS    //////
 const zalgo = require("zalgolize");
-const math = require("math-expression-evaluator");
+const math = require("math-expression-evaluator");            //////      DEV CHUCKE  //////
 const figlet = require("figlet");
 const fs = require("fs");
 const ms = require("ms");
@@ -32,15 +32,13 @@ client.on("ready", () => {
   );
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
-    `باپیرە گەورەی بۆتەکان`,
-    `❥︎𝕄𝔸ℝ𝕊☠︎︎`,
+    //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
+    `𝚂𝙽𝙳𝙰𝙽𝙼 𝙻𝙴𝙳𝙰`,
     `❥︎𝕚𝕞 𝕟𝕠𝕥 𝕙𝕒𝕔𝕜𝕖𝕣...!`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(STREAMING, {
-      type: "playing",
-      url: "https://www.twitch.tv/faith"
+    client.user.setActivity(STREAMING, {      type: "STREAMING",      url: "https://www.twitch.tv/faith"
     });
   }, 2000);
 });
@@ -52,10 +50,9 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
                                                              let c = g.channels.get("700801944121245858"); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
- { console.log('Failed To Join: \n The Channel Type isn "Listening."') } });
+ { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
+        client.login("")/////لێرە تۆکینیەکە دانێ
 
-
-client.login("NjkxMDg5MjU3OTg0NTU3MDk2.Xup__g.IX67fPgX3QB5BtxxSJvqLVetXXg");/////لێرە تۆکینیەکە دانێ
-//Bymars 
+                      ////  AX CHUCKE /////
 
