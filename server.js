@@ -33,13 +33,13 @@ client.on("ready", () => {
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     `باپیرە گەورەی بۆتەکان`,
-    `❥︎𝕞𝕒𝕣𝕤𓆙`,
+    `❥︎𝕄𝔸ℝ𝕊☠︎︎`,
     `❥︎𝕚𝕞 𝕟𝕠𝕥 𝕙𝕒𝕔𝕜𝕖𝕣...!`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     client.user.setActivity(STREAMING, {
-      type: "watching",
+      type: "playing",
       url: "https://www.twitch.tv/faith"
     });
   }, 2000);
