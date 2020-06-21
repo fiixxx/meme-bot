@@ -47,12 +47,12 @@ client.on("ready", () => {
 
         
 
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("");  
-                                                             let c = g.channels.get(""); 
+client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("633729664505872385");  
+                                                             let c = g.channels.get("717513037900152984"); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NjM3MzY4NDg4Njk1OTU1NDY4.Xu_N0A.wWINIes8M_tCDUNXMKa_czqCQ0U")/////لێرە تۆکینیەکە دانێ
+        client.login("NjM3MzY4NDg4Njk1OTU1NDY4.Xu_a_w.3k18JeQ97dwLZFLn-4JKD2jMR2g")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
