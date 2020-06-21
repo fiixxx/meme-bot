@@ -1,6 +1,4 @@
 
-
-
 const http = require("http");
 const express = require("express");
 const app = express();
@@ -36,12 +34,12 @@ client.on("ready", () => {
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
     `𝐢𝐦 𝐧𝐨𝐭 𝐡𝐚𝐜𝐤𝐞𝐫✈︎`,
-    `❥︎𝚒𝚖 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 ❦︎`,
-    `𝚡𝚊𝚝𝚊𝚛☠︎︎𝚊𝚕𝚊 𝚜𝚞𝚍𝚊𝚗 𝚗𝚎𝚡𝚝`,
+    `𝔻𝔼𝕍☠︎︎𝕃𝔸ℍ𝕌ℝ𝕀𝕐`,
+    `زۆڵــــــــی دیــــســـکـــۆرد  بـــــاوکـــی  بــــۆتـــەکــــان....Loading`,
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(STREAMING, {      type: "STREAMING",      url: "https://www.twitch.tv/faith"
+    client.user.setActivity(STREAMING, {      type: "PLAYING",      url: "https://www.twitch.tv/faith"
     });
   }, 2000);
 });
@@ -49,12 +47,12 @@ client.on("ready", () => {
 
         
 
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("633729664505872385");  
-                                                             let c = g.channels.get("717513037900152984"); 
+client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("689606351063613547");  
+                                                             let c = g.channels.get(""); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("")/////لێرە تۆکینیەکە دانێ
+        client.login("mfa.o_Bjy2DO7m7Dk75WTePHl2eqqHNMF55ggLMO_zoByxRLLpsVamWtlUwKFaGCKnTn8CArO_RGHiDBPnIeQw-L")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
