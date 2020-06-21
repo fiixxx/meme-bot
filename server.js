@@ -33,9 +33,9 @@ client.on("ready", () => {
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
-    `❥︎𝕚𝕞 𝕟𝕠𝕥 𝕙𝕒𝕔𝕜𝕖𝕣...!`,
-    ``,
-    ``,
+    `𝐢𝐦 𝐧𝐨𝐭 𝐡𝐚𝐜𝐤𝐞𝐫✈︎`,
+    `❥︎𝚒𝚖 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 ❦︎`,
+    `𝚡𝚊𝚝𝚊𝚛☠︎︎𝚊𝚕𝚊 𝚜𝚞𝚍𝚊𝚗 𝚗𝚎𝚡𝚝`,
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -47,12 +47,12 @@ client.on("ready", () => {
 
         
 
-client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("672044546359689216");  
-                                                             let c = g.channels.get("700801944121245858"); 
+client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("");  
+                                                             let c = g.channels.get(""); 
                                      if(c.type === 'voice') { c.join(); 
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NjkxMDg5MjU3OTg0NTU3MDk2.Xu514Q.I0yjXUSCZ85-qbdG4oJqqaXQ1xs")/////لێرە تۆکینیەکە دانێ
+        client.login("NjM3MzY4NDg4Njk1OTU1NDY4.Xu_N0A.wWINIes8M_tCDUNXMKa_czqCQ0U")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
