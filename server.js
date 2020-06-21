@@ -1,4 +1,6 @@
 
+
+
 const http = require("http");
 const express = require("express");
 const app = express();
@@ -53,6 +55,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NjM3MzY4NDg4Njk1OTU1NDY4.Xu_a_w.3k18JeQ97dwLZFLn-4JKD2jMR2g")/////لێرە تۆکینیەکە دانێ
+        client.login("")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
