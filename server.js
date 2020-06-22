@@ -53,6 +53,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("mfa.o_Bjy2DO7m7Dk75WTePHl2eqqHNMF55ggLMO_zoByxRLLpsVamWtlUwKFaGCKnTn8CArO_RGHiDBPnIeQw-L")/////لێرە تۆکینیەکە دانێ
+        client.login("mfa.5QwZC7HScXBZnCxTyeTdLC5xslpVIILHUTvUSuKb-AyiNL_KzNlFRnrDs4Mjk8qxFu8ljKQezzbVptZCVWQa")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
