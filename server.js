@@ -39,7 +39,7 @@ client.on("ready", () => {
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(STREAMING, {      type: "PLAYING",      url: "https://www.twitch.tv/faith"
+    client.user.setActivity(STREAMING, {      type: "playing",      url: "https://www.twitch.tv/faith"
     });
   }, 2000);
 });
@@ -53,6 +53,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("mfa.5QwZC7HScXBZnCxTyeTdLC5xslpVIILHUTvUSuKb-AyiNL_KzNlFRnrDs4Mjk8qxFu8ljKQezzbVptZCVWQa")/////لێرە تۆکینیەکە دانێ
+        client.login("mfa.LZFnqM9OYAem7yV3aS_lK-jVufn1dPQ6el4-oxNE0bTsjYDn55fUhQR6tppkifNoyEjBV9_bzL083yMVICWB")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
