@@ -579,6 +579,20 @@ const dispatcher = connnection.playStream(stream);
 });
 }
   
+  
+  
+  if (message.content === q30 ) {
+message.react('🔊')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/MXDlk9R1PRQ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
 if(message.content === "fstop" ) {
 var servers = {};
 
