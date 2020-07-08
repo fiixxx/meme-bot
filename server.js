@@ -565,6 +565,20 @@ const dispatcher = connnection.playStream(stream);
 });
 }
 
+  if (message.content === q29 ) {
+message.react('🔊')
+message.reply('حلیمە لە زانکۆیە هەردوو مەمکی لیمۆیە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/Ha9LXY1TgzM', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
 if(message.content === "fstop" ) {
 var servers = {};
 
@@ -589,6 +603,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NzI5ODAzNzIzNDcxMzIzMjMx.XwXXvw.TilRcpcxBfbR6VrZ9n9DQtEya7E")/////لێرە تۆکینیەکە دانێ
+        client.login("NzI5ODAzNzIzNDcxMzIzMjMx.XwX7Vw.1wQpf0nkqjyELJk6uBy9ypfpSA8")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
