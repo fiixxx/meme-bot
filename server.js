@@ -253,7 +253,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q9 ) {
 message.react('🔊')
-message.reply('')
+message.reply('هیچ خۆش نەبوو')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -267,6 +267,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q10 ) {
 message.react('🔊')
+message.reply('تخوا ئەتو قوندەرنی')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -280,6 +281,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q11 ) {
 message.react('🔊')
+message.reply('جیهازی درۆ کەشف کردن')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -293,6 +295,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q12 ) {
 message.react('🔊')
+message.reply('مەرد دیار')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -306,6 +309,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q13 ) {
 message.react('🔊')
+  message.reply('مڵدم واللە وەیە ئەوە بەس گەمە نییە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -319,6 +323,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q14 ) {
 message.react('🔊')
+  message.reply('هاوڕێیان کێ عەزی لە هینە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -345,6 +350,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q16 ) {
 message.react('🔊')
+message.reply('هینەکەتان زۆر بچوکە ئەزانی')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -358,6 +364,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q17 ) {
 message.react('🔊')
+message.reply('وەڵلە تێناگەم ئەوە چ دەرێت')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -371,6 +378,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q18 ) {
 message.react('🔊')
+  message.reply('ئەستێرە هار بووە دە دایکەنە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -384,6 +392,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q19 ) {
 message.react('🔊')
+  message.reply('لەمکارە زەرەرت کرد بەس گەوادید لۆ ماوە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -397,6 +406,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q20 ) {
 message.react('🔊')
+message.reply('قەعپەبابە دۆشکەی پێیە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -410,6 +420,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q21 ) {
 message.react('🔊')
+  message.reply('')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -423,6 +434,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q22 ) {
 message.react('🔊')
+  message.reply('')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -436,6 +448,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q23 ) {
 message.react('🔊')
+  message.reply('وەرە بچنە بلاک ڕومەوە عەیاتم joy')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`يرجى أن تكون في قناة صوتيه أولا!`);
@@ -449,6 +462,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q24 ) {
 message.react('🔊')
+  message.reply('ساتێک بۆ ئارامی دڵ و مێشکمان')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -462,6 +476,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q25 ) {
 message.react('🔊')
+  message.reply('عوسمان بێچارە سارەی بزر کردووە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -475,6 +490,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q26 ) {
 message.react('🔊')
+  message.reply('')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
