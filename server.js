@@ -869,14 +869,14 @@ const dispatcher = connnection.playStream(stream);
 }
 if (message.content === q46 ) {
 message.react('🔊')
-message.reply('')
+message.reply('زەختی لەمێشکت بکە هههه مڵدم بەخوا')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/xqMqjUCUW2s', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
