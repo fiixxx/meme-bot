@@ -129,15 +129,32 @@ var q29 = "f29"
 
 var q30 = "f30"
 
+var q31 = "f31"
+
 var q32 = "f32"
 
-var q31 = "f3"
+var q33 = "f33"
 
-var q31 = "f31"
+var q34 = "f34"
 
-var q31 = "f31"
+var q35 = "f35"
 
-var q31 = "f31"
+var q36 = "f36"
+
+var q37 = "f37"
+
+var q38 = "f38"
+
+var q39 = "f39"
+
+var q40 = "f40"
+
+
+
+
+
+
+
 
 
 function play(connection, message) {
