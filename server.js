@@ -698,7 +698,19 @@ const dispatcher = connnection.playStream(stream);
 });
 }
   
-  
+  if (message.content === q38 ) {
+message.react('🔊')
+message.reply('کاکە دەنگت نایەت هههه مڵدم')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/OE5IBQ6IuJ8', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
   
   
 if(message.content === "fstop" ) {
