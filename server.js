@@ -598,7 +598,7 @@ const dispatcher = connnection.playStream(stream);
   
   if (message.content === q31 ) {
 message.react('🔊')
-message.reply('')
+message.reply('دەنا شێتە ڕامەبوێرە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
