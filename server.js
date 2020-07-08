@@ -856,14 +856,14 @@ const dispatcher = connnection.playStream(stream);
 }
 if (message.content === q45 ) {
 message.react('🔊')
-message.reply('')
+message.reply('لە مەعەدەی خۆمان وا ناسراوم')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/cyGN9GgrWy4', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
