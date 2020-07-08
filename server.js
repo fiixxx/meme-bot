@@ -713,6 +713,37 @@ const dispatcher = connnection.playStream(stream);
 }
   
   
+  if (message.content === q39 ) {
+message.react('🔊')
+message.reply('بابەکەت توووووووت بەس بتبینم لە هەولێر')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/3-_GCmr7mcI', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  if (message.content === q40 ) {
+message.react('🔊')
+message.reply('بەس جیلی تیک تۆک تێدەگات کوان جیلی تیک تۆک')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://m.youtube.com/watch?v=9mC3-VYgv6s', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+
+  
+  
+  
 if(message.content === "fstop" ) {
 var servers = {};
 
