@@ -143,6 +143,7 @@ console.log(`Quran bot is in ${client.guilds.size} servers `)
 client.on("message", message => {
 if (message.content === q1 ) {
 message.react('🔊')
+message.reply(`پەڕلەمانم بۆچییە بابی زەینەبی`)
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**you must joining a voice**`); 
@@ -156,6 +157,8 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q2 ) {
 message.react('🔊')
+message.reply('تەکسیمی سەرخۆش مڵدم')
+
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`****`);
@@ -169,6 +172,8 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q3 ) {
 message.react('🔊')
+message.reply('سلام و علیکوم')
+  
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`****`);
@@ -188,15 +193,16 @@ return message.reply(`****`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt('https://www.youtube.com/watch?v=RGpl3J0qL2A', {audioonly: true});
+let stream = yt('', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q5 ) {
 message.react('🔊')
+message.reply('ٲحمد خلیل وەی لۆ قنانە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
-return message.reply(`****`);
+return message.reply(`**u**`);
 }
 voiceChannel.join()
 .then(connnection => {
@@ -206,6 +212,7 @@ const dispatcher = connnection.playStream(stream);
 }
 if (message.content === q6 ) {
 message.react('🔊')
+message.reply('عومەر دەبابەو پارتی')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`****`);
@@ -218,6 +225,7 @@ const dispatcher = connnection.playStream(stream);
 }
 if (message.content === q7 ) {
 message.react('🔊')
+message.reply('سۆنە تاقانە و قسەی خۆش')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -231,6 +239,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q8 ) {
 message.react('🔊')
+  message.reply('تەئکیدی پیاوی بەخوا عیزیان کرد باشە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -244,6 +253,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q9 ) {
 message.react('🔊')
+message.reply('')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
