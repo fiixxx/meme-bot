@@ -148,6 +148,46 @@ var q39 = "f39"
 
 var q40 = "f40"
 
+var q41 = "f41"
+
+var q42 = "f42"
+
+var q43 = "f43"
+
+var q44 = "f44"
+
+var q45 = "f45"
+
+var q46 = "f46"
+
+var q47 = "f47"
+
+var q48 = "f48"
+
+var q49 = "f49"
+
+var q50 = "f50"
+
+var q51 = "f51"
+
+var q52 = "f52"
+
+var q53 = "f53"
+
+var q54 = "f54"
+
+var q55 = "f55"
+
+var q56 = "f56"
+
+var q57 = "f57"
+
+var q58 = "f58"
+
+var q59 = "f59"
+
+var q60 = "f60"
+
 
 
 
@@ -736,7 +776,7 @@ return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt('https://m.youtube.com/watch?v=9mC3-VYgv6s', {audioonly: true});
+let stream = yt('https://youtu.be/NfpI9lbZn_Q', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
