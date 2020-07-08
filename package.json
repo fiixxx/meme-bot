@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Abady321x123/simple-music.git"
+    "url": ""
   },
   "author": "Abady",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "3amyah": "^1.0.0",
     "google-translate-api": "^2.3.0",
     "dateformat": "^3.0.3",
-    "discord-anti-spam": "^2.0.0",
+    "discord-anti-spam": "^2.4.1",
     "discord.js": "11.4.2",
     "express": "^4.16.4",
     "ffmpeg": "^0.0.4",
@@ -77,7 +77,7 @@
     "ustat": "0.0.2",
     "winston": "^3.2.1",
     "youtube-info": "^1.3.2",
-    "ytdl-core": "^0.29.0",
+    "ytdl-core": "^3.1.1",
     "zalgolize": "^1.2.4"
   },
   "scripts": {
