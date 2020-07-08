@@ -33,8 +33,7 @@ client.on("ready", () => {
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
-    `𝐢𝐦 𝐧𝐨𝐭 𝐡𝐚𝐜𝐤𝐞𝐫✈︎`,
-    `𝔻𝔼𝕍☠︎︎𝕃𝔸ℍ𝕌ℝ𝕀𝕐`,
+
     `زۆڵــــــــی دیــــســـکـــۆرد  بـــــاوکـــی  بــــۆتـــەکــــان....Loading`,
   ];
   setInterval(function() {
@@ -637,6 +636,25 @@ let stream = yt('https://youtu.be/PGcFJhMN2Cc', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
+  
+  
+  
+  if (message.content === q34 ) {
+message.react('🔊')
+message.reply('پەیامی هەمزە خۆشناو بڕۆ دەرێ لە ژیانم')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/nTbHrQPyfOg', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+
+  
+  
   
   
 if(message.content === "fstop" ) {
