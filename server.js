@@ -830,27 +830,27 @@ const dispatcher = connnection.playStream(stream);
   
   if (message.content === q43 ) {
 message.react('🔊')
-message.reply('')
+message.reply('سورە ئێ دە سورە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/Y4_PPu0LMu0', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q44 ) {
 message.react('🔊')
-message.reply('')
+message.reply('بەقوەترین مەوعید ههه تاکۆتای گوێی لێ بگرە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/JonfRWNMGrM', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
