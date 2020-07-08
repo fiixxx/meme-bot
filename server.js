@@ -624,7 +624,19 @@ const dispatcher = connnection.playStream(stream);
 });
 }
   
-  
+  if (message.content === q33 ) {
+message.react('🔊')
+message.reply('نانا ژن مەهێنن سەر لەخۆت مەشێوێنە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/PGcFJhMN2Cc', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
   
   
 if(message.content === "fstop" ) {
