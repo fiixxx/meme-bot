@@ -583,16 +583,38 @@ const dispatcher = connnection.playStream(stream);
   
   if (message.content === q30 ) {
 message.react('🔊')
+message.reply('یان کەمپەرە یان هاکەرە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt('https://youtu.be/MXDlk9R1PRQ', {audioonly: true});
+let stream = yt('https://youtu.be/ys_A_RO9CKM', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
+  
+  
+  if (message.content === q31 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/ah5H_rlG8xY', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  
+  
+  
+  
+  
 if(message.content === "fstop" ) {
 var servers = {};
 
