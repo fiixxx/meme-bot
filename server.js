@@ -610,7 +610,19 @@ const dispatcher = connnection.playStream(stream);
 });
 }
   
-  
+  if (message.content === q32 ) {
+message.react('🔊')
+    message.reply('بەقورئان کەتە بەرامبەرم هههه چییە مەسەلە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/TQhAEe8xWiQ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
   
   
   
