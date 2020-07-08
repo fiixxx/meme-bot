@@ -654,7 +654,34 @@ const dispatcher = connnection.playStream(stream);
 }
 
   
+  if (message.content === q35 ) {
+message.react('🔊')
+message.reply('وازم لە جگارە هێنا')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/YRzFLQLcYg4', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
   
+  
+  if (message.content === q36 ) {
+message.react('🔊')
+message.reply('دەبیتە 300 لۆ کاکە هاتیە چێندەر هههه')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/hw7IWWNvac8', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
   
   
 if(message.content === "fstop" ) {
