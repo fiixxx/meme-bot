@@ -798,6 +798,102 @@ const dispatcher = connnection.playStream(stream);
 }
 
   
+  if (message.content === q41 ) {
+message.react('🔊')
+message.reply('ئەوەی لێدەو خۆت کڕکە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/fvfLaaNU2mI', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  if (message.content === q42 ) {
+message.react('🔊')
+message.reply('قون ڕەش')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/AzEO7gg7tKE', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  
+  
+  if (message.content === q43 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q44 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q45 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q46 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
 if(message.content === "fstop" ) {
