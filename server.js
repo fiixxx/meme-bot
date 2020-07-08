@@ -121,6 +121,23 @@ var q25 = "f25"
 
 var q26 = "f26"
 
+var q27 = "f27"
+
+var q28 = "f28"
+
+var q29 = "f29"
+
+var q30 = "f30"
+
+var q32 = "f32"
+
+var q31 = "f3"
+
+var q31 = "f31"
+
+var q31 = "f31"
+
+var q31 = "f31"
 
 
 function play(connection, message) {
@@ -434,7 +451,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q22 ) {
 message.react('🔊')
-  message.reply('')
+  message.reply('ئەوە چ دەڵێی')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -490,7 +507,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q26 ) {
 message.react('🔊')
-  message.reply('')
+  message.reply('من خەڵکی سلێمانیم گەنجمان تێ نەماوە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
@@ -498,6 +515,35 @@ return message.reply(`**عزيزي , اذا اردت الإستماع للقرآ
 voiceChannel.join()
 .then(connnection => {
 let stream = yt('https://youtu.be/xzPTzfQFshI', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  
+  if (message.content === q27 ) {
+message.react('🔊')
+    message.reply('قسەکەنی زۆر تەواو هیچ حەکسی تیا نییە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/z6w1Msd9yBk', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  if (message.content === q28 ) {
+message.react('🔊')
+    message.reply('پەیوەندی لۆ جوابێ من نادەیەوە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`**عزيزي , اذا اردت الإستماع للقرآن الكريم فعليك الدخول لقناة صوتية**`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/A708TONtNVs', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
