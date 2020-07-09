@@ -1255,8 +1255,110 @@ const dispatcher = connnection.playStream(stream);
 });
 }
   
-  
-  
+  if (message.content === q71 ) {
+message.react('🔊')
+message.reply('باران ژیانا خۆ بگۆڕە ژنێ بینە هههه')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/DELZmPuw8S0', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q72 ) {
+message.react('🔊')
+message.reply('ڕوی گەلەک قەیمە هەر دێتەوە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/2BLeJXg0dx4', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q73 ) {
+message.react('🔊')
+message.reply('ئەوەش لە ڕقی میسی باشە کاکە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/VrUqe5SaJwQ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q74 ) {
+message.react('🔊')
+message.reply('کەرینتینەش ئیشی باشە')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/hIic4mShbDk', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  if (message.content === q75 ) {
+message.react('🔊')
+message.reply('کۆڕۆناهاتتت ههههه')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/Lqb_gycM1Sw', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q76 ) {
+message.react('🔊')
+message.reply('تەواو وەیە ناچینە پاریس هههه مڵدم')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/I5rf50lmsyg', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q77 ) {
+message.react('🔊')
+message.reply('هەڵیان پچراند ههه مڵدم')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt('https://youtu.be/mdv5u073cWM', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q78 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
   
 if(message.content === "fstop" ) {
 var servers = {};
