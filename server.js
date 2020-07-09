@@ -1466,6 +1466,197 @@ const dispatcher = connnection.playStream(stream);
 });
 }
   
+  if (message.content === q87 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q88 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q89 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q90 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q91 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q92 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q93 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q94 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q95 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q96 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q97 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q98 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  
+  
+  if (message.content === q99 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+if (message.content === q100 ) {
+message.react('🔊')
+message.reply('')
+const voiceChannel = message.member.voiceChannel;
+if (!voiceChannel) {
+return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
+}
+voiceChannel.join()
+.then(connnection => {
+let stream = yt(' ', {audioonly: true});
+const dispatcher = connnection.playStream(stream);
+});
+}
+  
+  
+  
+  
+  
+  
 if(message.content === "fstop" ) {
 var servers = {};
 
