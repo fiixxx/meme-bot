@@ -34,7 +34,10 @@ client.on("ready", () => {
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
 
-    `زۆڵــــــــی دیــــســـکـــۆرد  بـــــاوکـــی  بــــۆتـــەکــــان....Loading`,
+    `زۆڵـــــی پـــــڕۆچـــــێکــــــت`,
+    `fhelp`,
+    `دونیــــای کــــۆمـــیدیا`
+    
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -1468,157 +1471,157 @@ const dispatcher = connnection.playStream(stream);
   
   if (message.content === q87 ) {
 message.react('🔊')
-message.reply('')
+message.reply('پانزە دۆنمم هەیە بەتامای هین هێنانم')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/nDduQX0_feI', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q88 ) {
 message.react('🔊')
-message.reply('')
+message.reply('ساتێک لەگەڵ قادری برام')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/Vo3P9PNnLaM', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q89 ) {
 message.react('🔊')
-message.reply('')
+message.reply('مەلا قاتیل و مونەرمی')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/9xUYDiLN-UI', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q90 ) {
 message.react('🔊')
-message.reply('')
+message.reply('ئەگەر سایە کەریم ببێتە مامۆستا')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/HFns6nPV--k', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q91 ) {
 message.react('🔊')
-message.reply('')
+message.reply('کورە بەساقەتان بم باسە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/l-ySxW-505w', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q92 ) {
 message.react('🔊')
-message.reply('')
+message.reply('.......کورە لۆ بیئێمم دە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/ujw_emwa47E', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q93 ) {
 message.react('🔊')
-message.reply('')
+message.reply('زەعمەت نەبێ سەعات چەندە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/ceYhw4ByWG0', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q94 ) {
 message.react('🔊')
-message.reply('')
+message.reply('تەنتە دێت تەنتە دەڕوات مڵدم')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/rs0R-Cd3R30', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q95 ) {
 message.react('🔊')
-message.reply('')
+message.reply('ناو دیدەیەو چوار پیتە کەی شو ئەکەم')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/PJ0QpK9YwKw', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q96 ) {
 message.react('🔊')
-message.reply('')
+message.reply('ئا ئا عەیاتم هەر بەجدی هەزەلیت')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/on2ryHPzvSc', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q97 ) {
 message.react('🔊')
-message.reply('')
+message.reply('ڕوت هەر وەک ڕوی قەعپەیە مڵدم')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/yk0Cuv97kHs', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q98 ) {
 message.react('🔊')
-message.reply('')
+message.reply('لەختە خەتەرەکەیە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/3atkxl6wwys', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
@@ -1627,27 +1630,27 @@ const dispatcher = connnection.playStream(stream);
   
   if (message.content === q99 ) {
 message.react('🔊')
-message.reply('')
+message.reply('فێرکاری زمانی کۆری')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/dNHt_9StM08', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
 if (message.content === q100 ) {
 message.react('🔊')
-message.reply('')
+message.reply('سینگڵیش بەو دەرەجەیە')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە ئەنجام بدە`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt(' ', {audioonly: true});
+let stream = yt('https://youtu.be/FQoFuT0Qb1Q', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
@@ -1674,7 +1677,66 @@ message.channel.send(` QuranBot
 });
 
         
+const queue = new Map();
+client.on("ready", () => console.log("🤖Ready Bot In Online🤖"));
 
+
+
+client.on("message", message => {
+if (message.content === "fhelp") {
+const embed = new Discord.RichEmbed().setColor("#000000")
+.setImage("https://cdn.discordapp.com/attachments/730509201830314025/731092925911662602/20200710_132032.gif")
+.setDescription(`**زانیاری بۆتکە**
+👮|Protection Commands|👮 - زانیاری لەسەر بۆتەکە : 
+
+f1   NEXT   f100
+
+★✯★✯★✯★✯★✯★✯
+
+fstop  👉   بۆ ڕاگرتنی بۆتەکە لەکاتی قسە کردن دا
+
+★✯★✯★✯★✯★✯★✯
+
+finvite  👉  بۆ ڕاکێشانی بۆتەکە بۆ سێرڤەرەکەت
+
+★✯★✯★✯★✯★✯★✯
+
+لە ئێستادا 100 ساوندمان تێکەڵ بەیەک کردووە چاوەڕێی شتی زیاتر بن
+
+
+سەروو 18 ساڵ تکایە 🔞
+
+
+**•𝐁𝐘 𝐌𝐀𝐑𝐒 ❥︎ 𝐉𝐀𝐍𝐎 •**`);
+message.author.sendEmbed(embed);
+message.channel.sendEmbed(embed);
+}
+});
+
+
+client.on("message", message => {
+if (message.content === "finvite") {
+if (!message.channel.guild)
+return message.reply(
+"Please Do not type bot commands in bot private chat"
+);
+let embed = new Discord.RichEmbed()
+.setColor("GREEN")
+.setTitle("=--> بۆ ڕاکێشانی بۆتەکە داگرە <--=")
+.setImage("https://cdn.discordapp.com/attachments/730509201830314025/731092925911662602/20200710_132032.gif")
+.setURL(
+"https://discord.com/api/oauth2/authorize?client_id=729803723471323231&permissions=8&scope=bot"
+) // Type Your Link here after ''
+.setFooter("𝐁𝐘 𝐌𝐀𝐑𝐒 ❥︎ 𝐉𝐀𝐍𝐎", message.author.avatarURL);
+message.channel.sendEmbed(embed);
+}
+});
+
+
+
+client.on("ready", () => {
+console.log(`Logged in as ${client.user.tag}!`);
+});
 client.on('ready',async () => { console.log("Starting.."); let g = client.guilds.get("");  
                                                              let c = g.channels.get(""); 
                                      if(c.type === 'voice') { c.join(); 
