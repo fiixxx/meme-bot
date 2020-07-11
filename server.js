@@ -866,7 +866,7 @@ return message.reply(`تکایە بچۆ ژورێک ئینجا فەرمانەکە
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt('https://youtu.be/fvfLaaNU2mI', {audioonly: true});
+let stream = yt('https://youtu.be/ZdMM9e0FRf0', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
