@@ -1743,6 +1743,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NzI5ODAzNzIzNDcxMzIzMjMx.XwX7Vw.1wQpf0nkqjyELJk6uBy9ypfpSA8")/////لێرە تۆکینیەکە دانێ
+        client.login("NzI5ODAzNzIzNDcxMzIzMj")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
