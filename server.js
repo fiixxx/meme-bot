@@ -1707,7 +1707,7 @@ finvite  👉  بۆ ڕاکێشانی بۆتەکە بۆ سێرڤەرەکەت
 سەروو 18 ساڵ تکایە 🔞
 
 
-**•𝐁𝐘 𝐌𝐀𝐑𝐒 ❥︎ 𝐉𝐀𝐍𝐎 •**`);
+**•SHETAGYAN ❥︎ SANFUR •**`);
 message.author.sendEmbed(embed);
 message.channel.sendEmbed(embed);
 }
@@ -1743,6 +1743,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("process.env.TOKEN")/////لێرە تۆکینیەکە دانێ
+        client.login("NzM1ODE5NzQxNTYxNjE4NTE1.XxlziQ.svTcVby1_ZbgkjAtmS2ViL8ZkWs")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
