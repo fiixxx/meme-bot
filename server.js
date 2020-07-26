@@ -1727,7 +1727,7 @@ let embed = new Discord.RichEmbed()
 .setURL(
 "https://discord.com/api/oauth2/authorize?client_id=729803723471323231&permissions=8&scope=bot"
 ) // Type Your Link here after ''
-.setFooter("𝐁𝐘 𝐌𝐀𝐑𝐒 ❥︎ 𝐉𝐀𝐍𝐎", message.author.avatarURL);
+.setFooter("SHETA:SANFUR", message.author.avatarURL);
 message.channel.sendEmbed(embed);
 }
 });
