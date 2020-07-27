@@ -1707,7 +1707,7 @@ finvite  👉  بۆ ڕاکێشانی بۆتەکە بۆ سێرڤەرەکەت
 سەروو 18 ساڵ تکایە 🔞
 
 
-**•SHETAGYAN ❥︎ SANFUR •**`);
+**•SHETAGYAN ❥︎ SANFUR • ESO**`);
 message.author.sendEmbed(embed);
 message.channel.sendEmbed(embed);
 }
@@ -1725,9 +1725,9 @@ let embed = new Discord.RichEmbed()
 .setTitle("=--> بۆ ڕاکێشانی بۆتەکە داگرە <--=")
 .setImage("https://cdn.discordapp.com/attachments/730509201830314025/731092925911662602/20200710_132032.gif")
 .setURL(
-"https://discord.com/api/oauth2/authorize?client_id=729803723471323231&permissions=8&scope=bot"
+"https://discord.com/api/oauth2/authorize?https://discord.com/api/oauth2/authorize?client_id=737305888020365384&permissions=8&scope=bot"
 ) // Type Your Link here after ''
-.setFooter("SHETA:SANFUR", message.author.avatarURL);
+.setFooter("SHETA:SANFUR.ESO", message.author.avatarURL);
 message.channel.sendEmbed(embed);
 }
 });
@@ -1743,6 +1743,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NzM1ODE5NzQxNTYxNjE4NTE1.XxlziQ.svTcVby1_ZbgkjAtmS2ViL8ZkWs")/////لێرە تۆکینیەکە دانێ
+        client.login("hNzM3MzA1ODg4MDIwMzY1Mzg0.Xx7bng._5aJOcYipwc8cHPF_n0TadI6f2s")/////لێرە تۆکینیەکە دانێ
 
                       ////  by mars /////
