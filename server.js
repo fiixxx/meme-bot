@@ -1686,7 +1686,7 @@ client.on("ready", () => console.log("🤖Ready Bot In Online🤖"));
 client.on("message", message => {
 if (message.content === "fhelp") {
 const embed = new Discord.RichEmbed().setColor("#000000")
-.setImage("https://cdn.discordapp.com/attachments/730509201830314025/731092925911662602/20200710_132032.gif")
+.setImage("https://media.discordapp.net/attachments/738379901656367124/739798803481100298/PicsArt_08-03-01.50.10.gif")
 .setDescription(`**زانیاری بۆتکە**
 👮|Protection Commands|👮 - زانیاری لەسەر بۆتەکە : 
 
@@ -1725,7 +1725,7 @@ let embed = new Discord.RichEmbed()
 .setColor("GREEN")
 .setTitle("=--> بۆ ڕاکێشانی بۆتەکە داگرە <--=")
 .setImage("")
-.setImage("https://cdn.discordapp.com/attachments/738379901656367124/739798803481100298/PicsArt_08-03-01.50.10.gif")
+.setImage("https://media.discordapp.net/attachments/738379901656367124/739798803481100298/PicsArt_08-03-01.50.10.gif")
 .setURL(
 "https://discord.com/api/oauth2/authorize?https://discord.com/api/oauth2/authorize?client_id=737305888020365384&permissions=8&scope=bot"
 ) // Type Your Link here after ''
