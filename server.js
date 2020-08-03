@@ -335,14 +335,14 @@ const dispatcher = connnection.playStream(stream);
 }
 
 if (message.content === q4 ) {
-message.react('')
+message.react('🔊')
 const voiceChannel = message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`****`);
 }
 voiceChannel.join()
 .then(connnection => {
-let stream = yt('', {audioonly: true});
+let stream = yt('https://youtu.be/BNS_ENQZNak', {audioonly: true});
 const dispatcher = connnection.playStream(stream);
 });
 }
