@@ -33,12 +33,11 @@ client.on("ready", () => {
   let statuses = [
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
-
     `زۆڵـــــی پـــــڕۆچـــــێکــــــت`,
     `fhelp`,
     `دونیــــای کــــۆمـــیدیا`
-    
-  
+
+
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
