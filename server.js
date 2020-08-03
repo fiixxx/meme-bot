@@ -37,6 +37,7 @@ client.on("ready", () => {
     `زۆڵـــــی پـــــڕۆچـــــێکــــــت`,
     `fhelp`,
     `دونیــــای کــــۆمـــیدیا`
+    `MY CREATOR SHETA OR SANFUR`,
   
   ];
   setInterval(function() {
@@ -1707,7 +1708,7 @@ finvite  👉  بۆ ڕاکێشانی بۆتەکە بۆ سێرڤەرەکەت
 سەروو 18 ساڵ تکایە 🔞
 
 
-**•SHETAGYAN ❥︎ SANFUR • ESO**`);
+**•SHETAGYAN ❥︎ SANFUR • **`);
 message.author.sendEmbed(embed);
 message.channel.sendEmbed(embed);
 }
@@ -1723,11 +1724,11 @@ return message.reply(
 let embed = new Discord.RichEmbed()
 .setColor("GREEN")
 .setTitle("=--> بۆ ڕاکێشانی بۆتەکە داگرە <--=")
-.setImage("https://cdn.discordapp.com/attachments/730509201830314025/731092925911662602/20200710_132032.gif")
+.setImage("")
 .setURL(
 "https://discord.com/api/oauth2/authorize?https://discord.com/api/oauth2/authorize?client_id=737305888020365384&permissions=8&scope=bot"
 ) // Type Your Link here after ''
-.setFooter("SHETA:SANFUR.ESO", message.author.avatarURL);
+.setFooter("SHETA:SANFUR.", message.author.avatarURL);
 message.channel.sendEmbed(embed);
 }
 });
@@ -1743,6 +1744,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("hNzM3MzA1ODg4MDIwMzY1Mzg0.Xx7bng._5aJOcYipwc8cHPF_n0TadI6f2s")/////لێرە تۆکینیەکە دانێ
+        client.login("NzM5Nzk0MTAxMjU5NDY4ODYx.Xyfo8g.W_Rb5qLKpPQ38s4js1bZ0sbWWqE")/////لێرە تۆکینیەکە دانێ
 
-                      ////  by mars /////
+                      ////  by SANFUR OR SHETA /////
