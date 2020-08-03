@@ -37,7 +37,7 @@ client.on("ready", () => {
     `زۆڵـــــی پـــــڕۆچـــــێکــــــت`,
     `fhelp`,
     `دونیــــای کــــۆمـــیدیا`
-    `MY CREATOR SHETA OR SANFUR`,
+    
   
   ];
   setInterval(function() {
@@ -1725,6 +1725,7 @@ let embed = new Discord.RichEmbed()
 .setColor("GREEN")
 .setTitle("=--> بۆ ڕاکێشانی بۆتەکە داگرە <--=")
 .setImage("")
+.setImage("https://cdn.discordapp.com/attachments/738379901656367124/739798803481100298/PicsArt_08-03-01.50.10.gif")
 .setURL(
 "https://discord.com/api/oauth2/authorize?https://discord.com/api/oauth2/authorize?client_id=737305888020365384&permissions=8&scope=bot"
 ) // Type Your Link here after ''
