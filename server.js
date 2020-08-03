@@ -1748,3 +1748,4 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
         client.login("NzM5Nzk0MTAxMjU5NDY4ODYx.Xyfo8g.W_Rb5qLKpPQ38s4js1bZ0sbWWqE")/////لێرە تۆکینیەکە دانێ
 
                       ////  by SANFUR OR SHETA /////
+"NzM5Nzk0MTAxMjU5NDY4ODYx.Xyfo8g.W_Rb5qLKpPQ38s4js1bZ0sbWWqE"
