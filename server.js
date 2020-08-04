@@ -36,7 +36,6 @@ client.on("ready", () => {
     `زۆڵـــــی پـــــڕۆچـــــێکــــــت`,
     `fhelp`,
     `دونیــــای کــــۆمـــیدیا`
-    `BY SHETA GYAN`
 
   ];
   setInterval(function() {
@@ -1745,7 +1744,6 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NzI4OTExNDM4MjM1Njk3MjMy.XwBRrQ.Xo8__ZwU50cwHZmDml2sRK62NZM")/////لێرە تۆکینیەکە دانێ
+        client.login("NzQwMTk1MjM1MDY5NDI3NzQy.XyleiA.oVUYondQ6UOWZOBReUMP7_MSvGQ")/////لێرە تۆکینیەکە دانێ
 
                       ////  by SANFUR OR SHETA /////
-"NzI4OTExNDM4MjM1Njk3MjMy.XwBRrQ.Xo8__ZwU50cwHZmDml2sRK62NZM"
