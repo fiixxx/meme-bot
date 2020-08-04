@@ -335,7 +335,7 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q4 ) {
 message.react('🔊')
-
+const voiceChannel=
 message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`****`);
@@ -1727,7 +1727,7 @@ let embed = new Discord.RichEmbed()
 .setImage("")
 .setImage("https://media.discordapp.net/attachments/738379901656367124/739798803481100298/PicsArt_08-03-01.50.10.gif")
 .setURL(
-"https://discord.com/api/oauth2/authorize?https://discord.com/api/oauth2/authorize?client_id=737305888020365384&permissions=8&scope=bot"
+"https://discord.com/api/oauth2/authorize?client_id=739794101259468861&permissions=8&scope=bot"
 ) // Type Your Link here after ''
 .setFooter("SHETA:SANFUR.", message.author.avatarURL);
 message.channel.sendEmbed(embed);
@@ -1745,7 +1745,7 @@ client.on('ready',async () => { console.log("Starting.."); let g = client.guilds
  setInterval(() => { if(!g.me.voiceChannel) c.join(); }, 1); } else 
  { console.log('Failed To Join: \n The Channel Type isn "Listeni_g."') } });
 
-        client.login("NzM5Nzk0MTAxMjU5NDY4ODYx.Xyfo8g.W_Rb5qLKpPQ38s4js1bZ0sbWWqE")/////لێرە تۆکینیەکە دانێ
+        client.login("NzI4OTExNDM4MjM1Njk3MjMy.XwBRrQ.Xo8__ZwU50cwHZmDml2sRK62NZM")/////لێرە تۆکینیەکە دانێ
 
                       ////  by SANFUR OR SHETA /////
-"NzM5Nzk0MTAxMjU5NDY4ODYx.Xyfo8g.W_Rb5qLKpPQ38s4js1bZ0sbWWqE"
+"NzI4OTExNDM4MjM1Njk3MjMy.XwBRrQ.Xo8__ZwU50cwHZmDml2sRK62NZM"
