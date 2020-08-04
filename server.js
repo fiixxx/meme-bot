@@ -1726,7 +1726,7 @@ let embed = new Discord.RichEmbed()
 .setImage("")
 .setImage("https://media.discordapp.net/attachments/738379901656367124/739798803481100298/PicsArt_08-03-01.50.10.gif")
 .setURL(
-"https://discord.com/api/oauth2/authorize?client_id=739794101259468861&permissions=8&scope=bot"
+"https://discord.com/api/oauth2/authorize?client_id=740195235069427742&permissions=8&scope=bot"
 ) // Type Your Link here after ''
 .setFooter("SHETA:SANFUR.", message.author.avatarURL);
 message.channel.sendEmbed(embed);
