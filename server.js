@@ -36,7 +36,7 @@ client.on("ready", () => {
     `زۆڵـــــی پـــــڕۆچـــــێکــــــت`,
     `fhelp`,
     `دونیــــای کــــۆمـــیدیا`
-
+    `BY SHETA GYAN`
 
   ];
   setInterval(function() {
@@ -335,7 +335,8 @@ const dispatcher = connnection.playStream(stream);
 
 if (message.content === q4 ) {
 message.react('🔊')
-const voiceChannel = message.member.voiceChannel;
+
+message.member.voiceChannel;
 if (!voiceChannel) {
 return message.reply(`****`);
 }
