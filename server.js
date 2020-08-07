@@ -12,16 +12,16 @@ setInterval(() => {
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const moment = require("moment");                              //////     DEV MARS    //////
+const moment = require("moment");                              //////     DEV SHETA   //////
 const zalgo = require("zalgolize");
-const math = require("math-expression-evaluator");            //////      DEV CHUCKE  //////
+const math = require("math-expression-evaluator");            //////      DEV SANFUR //////
 const figlet = require("figlet");
 const fs = require("fs");
 const ms = require("ms");
 const prefix = "";
 const { Client, Collection } = require("discord.js");
 
-// Collections by mars
+// Collections by sheta
 client.commands = new Collection();
 client.aliases = new Collection();
 
