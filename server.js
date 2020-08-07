@@ -1733,6 +1733,8 @@ client.on("ready", async () => {
   }
 });
 
-cleint.login("NzQwODkwMTk2ODc4Mjk1MTMz.XyvlxA.OEciY5wn1ArzNcTX4SzhyEtxgA8"); /////لێرە تۆکینیەکە دانێ
-
-////  by SANFUR OR SHETA /////
+cleint.login.tokn(
+  "NzQwODkwMTk2ODc4Mjk1MTMz.XyvlxA.OEciY5wn1ArzNcTX4SzhyEtxgA8"
+); /////
+////by mars/////
+token;
