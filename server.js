@@ -1734,7 +1734,7 @@ client.on("ready", async () => {
 });
 
 cleint.login.tokn(
- "NzQwODkwMTk2ODc4Mjk1MTMz.XyvlxA.OEciY5wn1ArzNcTX4SzhyEtxgA8"
+ "NzQ4NjY0MjAxMzkxNjM2NTAx.X0gt3w.jODOd0vaEZmw_KpBrCb2SX79erw"
 ); /////
 ////by mars/////
 token;
