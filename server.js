@@ -11,9 +11,9 @@ setInterval(() => {
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const moment = require("moment"); //////     DEV SHETA   //////
+const moment = require("moment"); //////     DEV FiiX   //////
 const zalgo = require("zalgolize");
-const math = require("math-expression-evaluator"); //////      DEV SANFUR //////
+const math = require("math-expression-evaluator"); //////      DEV FiiX //////
 const figlet = require("figlet");
 const fs = require("fs");
 const ms = require("ms");
@@ -1689,7 +1689,7 @@ finvite  👉  بۆ ڕاکێشانی بۆتەکە بۆ سێرڤەرەکەت
 سەروو 18 ساڵ تکایە 🔞
 
 
-**•SHETAGYAN ❥︎ SANFUR • **`);
+**•FiiX❥︎ Monty  • **`);
     message.author.sendEmbed(embed);
     message.channel.sendEmbed(embed);
   }
@@ -1709,9 +1709,9 @@ client.on("message", message => {
         "https://media.discordapp.net/attachments/738379901656367124/739798803481100298/PicsArt_08-03-01.50.10.gif"
       )
       .setURL(
-        "https://discord.com/api/oauth2/authorize?client_id=740195235069427742&permissions=8&scope=bot"
+        "https://https://discord.com/api/oauth2/authorize?client_id=866374363318452224&permissions=8&scope=bot"
       ) // Type Your Link here after ''
-      .setFooter("SHETA:SANFUR.", message.author.avatarURL);
+      .setFooter("FiiX:Monty.", message.author.avatarURL);
     message.channel.sendEmbed(embed);
   }
 });
@@ -1734,7 +1734,7 @@ client.on("ready", async () => {
 });
 
 cleint.login.tokn(
- "NzQ4NjY0MjAxMzkxNjM2NTAx.X0gt3w.jODOd0vaEZmw_KpBrCb2SX79erw"
+ "ODY2Mzc0MzYzMzE4NDUyMjI0.YPRoAA.Mb6f7BIS3LMupNVNVjBuSdyyn3A"
 ); /////
-////by mars/////
+////by FiiX/////
 token;
