@@ -1689,7 +1689,7 @@ finvite  👉  بۆ ڕاکێشانی بۆتەکە بۆ سێرڤەرەکەت
 سەروو 18 ساڵ تکایە 🔞
 
 
-**•FiiX❥︎ Monty  • **`);
+**•FiiX❥︎ JackSpparow  • **`);
     message.author.sendEmbed(embed);
     message.channel.sendEmbed(embed);
   }
@@ -1733,8 +1733,6 @@ client.on("ready", async () => {
   }
 });
 
-cleint.login.tokn(
- "ODY2Mzc0MzYzMzE4NDUyMjI0.YPRoAA.Mb6f7BIS3LMupNVNVjBuSdyyn3A"
+cleint.login.("تــــــۆکـــیـــن لێرە دانـــــــێ")
 ); /////
-////by FiiX/////
-token;
+////Coded by FiiX/////
