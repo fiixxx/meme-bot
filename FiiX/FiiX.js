@@ -28,7 +28,7 @@ client.on("ready", () => {
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses = [
+  let statuses = [ punisher bot
     ///// لێرانە شتێک بووسە بۆ ستریمینگەکە
     //// DASTKARE MAKA DACHE BGYE BEKAYTA EROR BA WRYAYI DASKARII MAKA
     `زۆڵـــــی پـــــڕۆچـــــێکــــــت`,
@@ -1733,6 +1733,6 @@ client.on("ready", async () => {
   }
 });
 
-cleint.login.("تــــــۆکـــیـــن لێرە دانـــــــێ")
+cleint.login.("ODc4NjU4MDU2Mjk5MzY4NDYw.YSEYFQ.97PwE1rzLe0jaJM80XsTTEUEgiY")
 ); /////
 ////Coded by FiiX/////
